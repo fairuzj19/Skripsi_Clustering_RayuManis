@@ -1,0 +1,601 @@
+{% set title = 'Dashboard' %}
+{% set page = 'dashboard.html' %}
+{% extends 'base.html' %}
+
+{% block plugins_css %}
+  <link rel="stylesheet" href="../node_modules/jqvmap/dist/jqvmap.min.css">
+  <link rel="stylesheet" href="../node_modules/summernote/dist/summernote-bs4.css">
+  <link rel="stylesheet" href="../node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="../node_modules/owl.carousel/dist/assets/owl.theme.default.min.css">
+  
+{% endblock %}
+
+{% block content %}
+  <div class="main-content">
+      <div class="col-md">
+          <section class="section" style="color: #3C3431;">
+              <div class="section-header" style="color: #3C3431;">
+                  <h1>Dashboard Rayu Manis</h1>
+              </div>
+              <div class="row">
+                <div class="col-lg-8 col-md-12 col-sm-12 col-12">
+                <div class="container px-0" style="margin-top: 0 !important; padding-top: 0 !important;">
+                    <div class="row g-4">
+                      <!-- Card 1: Total Customer -->
+                      <div class="col-md-6">
+                        <div class="card shadow rounded-4 border-0">
+                          <div class="card-body text-center py-4">
+                            <h5 class="card-title text-muted">Total Customer</h5>
+                            <h2 class="fw-bold display-5 text-primary">414</h2>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <!-- Card 2: Cluster -->
+                      <div class="col-md-6">
+                        <div class="card shadow rounded-4 border-0">
+                          <div class="card-body text-center py-4">
+                            <h5 class="card-title text-muted">Cluster</h5>
+                            <h2 class="fw-bold display-5 text-success" style="color: #4bc0c0 !important;">2</h2>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card" style="padding-bottom: 52px;">
+                    <div class="card-header" style="padding-left: 30px; padding-top: 30px; padding-bottom: 41px;">
+                      <h4>Visualisasi Cluster Order</h4>
+                    </div>
+                    <div class="card-body">
+                      <div id="clusterOrder"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                  <div class="card shadow-sm border-0 rounded-4 p-4 mb-4" style="padding-bottom: 0 !important;">
+                    <div class="d-flex align-items-center mb-2">
+                      <svg class="text-muted mb-0" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16" style="margin-right: 8px;">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                        <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
+                      </svg>
+                      <strong class="me-2" >Sheet Order</strong>
+                      <span 
+                        class="text-muted" 
+                        data-bs-toggle="tooltip" 
+                        data-bs-placement="right" 
+                        title="Informasi tentang penjualan harian di Cafe Teras Rayu.">
+                        <i class="bi bi-info-circle"></i>
+                      </span>
+                    </div>
+                    <p style="text-align: justify;">
+                      Sheet ini mencakup pencatatan penjualan harian di Teras Rayu. Berisikan data mulai dari Februari 2023 hingga Oktober 2024.
+                    </p>
+                  </div>
+                  <div>
+                    <div class="card">
+                      <div class="card-header">
+                        <h4>Presentase Cluster Order</h4>
+                      </div>
+                      <div class="card-body">
+                        <canvas id="OrderPieChart"></canvas>
+                      </div>
+                    </div>
+                    <div class="card w-100">
+                      <div class="card-header">
+                        <h4>Data Cluster Order</h4>
+                      </div>
+                      <div class="card-body" style="padding-bottom: 20px;">
+                        <table>
+                          <thead>
+                            <tr>
+                              <th>Cluster</th>
+                              <th>Count</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {% for cluster, count in data2.items() %}
+                            <tr>
+                              <td>{{ cluster }}</td>
+                              <td>{{ count }}</td>
+                            </tr>
+                            {% endfor %}
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <div class="card">
+                    <div class="card-header" style="padding-left: 30px; padding-top: 30px;">
+                      <h4>RFM Sheet Order</h4>
+                    </div>
+                    <div class="card-body">
+                      <div id="scatterPlotCombined" style="width: 100%; height: 400px;"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                  <a href="{{ url_for('main.dashboard1') }}"
+                    class="btn btn-primary rounded-4 px-4 py-2"
+                    style=" margin-bottom: 20px; width: 910px; margin-left: 20px; font-size: 16px; border-color: #d1d5db; background-color: #ffffff; color: #212529; transition: background-color 0.2s ease, color 0.2s ease;"
+                    onmouseover="this.style.backgroundColor='#6777ef'; this.style.color='#ffffff'; this.querySelector('i').style.color='#ffffff';"
+                    onmouseout="this.style.backgroundColor='#ffffff'; this.style.color='#212529'; this.querySelector('i').style.color='#212529';">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bar-chart-line" viewBox="0 0 16 16">
+                      <path d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1zm1 12h2V2h-2zm-3 0V7H7v7zm-5 0v-3H2v3z"/>
+                    </svg> Insight Cluster Order
+                  </a>
+                </div>
+              
+              
+              <div class="row">
+                <!-- Visualisasi Cluster Rayu -->
+                <div class="col-lg-8 col-md-12 col-sm-12 col-12">
+                                  <div class="container px-0" style="margin-top: 0 !important; padding-top: 0 !important;">
+                    <div class="row g-4">
+                      <!-- Card 1: Total Customer -->
+                      <div class="col-md-6">
+                        <div class="card shadow rounded-4 border-0">
+                          <div class="card-body text-center py-4">
+                            <h5 class="card-title text-muted">Total Customer</h5>
+                            <h2 class="fw-bold display-5 text-primary">75</h2>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <!-- Card 2: Cluster -->
+                      <div class="col-md-6">
+                        <div class="card shadow rounded-4 border-0">
+                          <div class="card-body text-center py-4">
+                            <h5 class="card-title text-muted">Cluster</h5>
+                            <h2 class="fw-bold display-5 text-success" style="color: #4bc0c0 !important;">2</h2>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card" style="padding-bottom: 52px; padding-left: 15px; padding-top: 30px;">
+                    <div class="card-header" style="padding-left: 30px;">
+                      <h4>Visualisasi Cluster Rayu Manis</h4>
+                    </div>
+                    <div class="card-body">
+                      <div id="clusterRayu"></div>
+                    </div>
+                  </div>
+                </div>
+              
+                <!-- Presentase dan Data Cluster Rayu -->
+                <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                  <div class="card shadow-sm border-0 rounded-4 p-4 mb-4" style="padding-bottom: 0 !important;">
+                    <div class="d-flex align-items-center mb-2">
+                      <svg class="text-muted mb-0" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16" style="margin-right: 8px;">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                        <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
+                      </svg>
+                      <strong class="me-2">Sheet Rayu Manis</strong>
+                      <span 
+                        class="text-muted" 
+                        data-bs-toggle="tooltip" 
+                        data-bs-placement="right" 
+                        title="Informasi tentang penjualan harian di Cafe Teras Rayu.">
+                      </span>
+                    </div>
+                    <p style="text-align: justify;">
+                      Sheet ini mencakup pencatatan penjualan custom cake. Berisikan data mulai dari Februari 2023 hingga Oktober 2024.
+                    </p>
+                  </div>
+                  <div>
+                    <!-- Pie Chart -->
+                    <div class="card w-100">
+                      <div class="card-header">
+                        <h4>Presentase Cluster Rayu Manis</h4>
+                      </div>
+                      <div class="card-body">
+                        <canvas id="RayuPieChart"></canvas>
+                      </div>
+                    </div>
+              
+                    <!-- Tabel Data -->
+                    <div class="card w-100">
+                      <div class="card-header">
+                        <h4>Data Cluster Rayu</h4>
+                      </div>
+                      <div class="card-body" style="padding-bottom: 20px;">
+                        <table>
+                          <thead>
+                            <tr>
+                              <th>Cluster</th>
+                              <th>Count</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {% for cluster, count in data3.items() %}
+                            <tr>
+                              <td>{{ cluster }}</td>
+                              <td>{{ count }}</td>
+                            </tr>
+                            {% endfor %}
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+              
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="row">
+                <div class="card" style="margin: 12px;">
+                  <div class="card-header">
+                    <h4>RFM Sheet Order</h4>
+                  </div>
+                  <div class="card" style=" max-width: 100%;">
+                    <div id="scatterPlotCombined" style="width: 100%; height: 400px;"></div>
+                  </div>                  
+                </div>
+                
+            </div> -->
+            <div class="row">
+              <div class="col-12">
+                <div class="card">
+                  <div class="card-header" style="padding-left: 50px; padding-top: 30px;">
+                    <h4>RFM Sheet Rayu Manis</h4>
+                  </div>
+                  <div class="card-body">
+                    <div id="scatterPlotRMCombined" style="width: 100%; height: 400px;"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                  <a href="{{ url_for('main.dashboard2') }}"
+                    class="btn btn-primary rounded-4 px-4 py-2"
+                    style=" margin-bottom: 20px; width: 910px; margin-left: 20px; font-size: 16px; border-color: #d1d5db; background-color: #ffffff; color: #212529; transition: background-color 0.2s ease, color 0.2s ease;"
+                    onmouseover="this.style.backgroundColor='#6777ef'; this.style.color='#ffffff'; this.querySelector('i').style.color='#ffffff';"
+                    onmouseout="this.style.backgroundColor='#ffffff'; this.style.color='#212529'; this.querySelector('i').style.color='#212529';">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bar-chart-line" viewBox="0 0 16 16">
+                      <path d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1zm1 12h2V2h-2zm-3 0V7H7v7zm-5 0v-3H2v3z"/>
+                    </svg> Insight Cluster Rayu Manis
+                  </a>
+                </div>
+          </section>
+      </div>
+  </div>
+{% endblock content %}
+
+{% block plugins_js %}
+  <script src="../node_modules/chart.js/dist/Chart.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  
+
+  <script>
+  const jsonData = {{data|safe}};
+  const clusterTraces = [];
+  const colors = ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0', '#9966FF'];
+
+  jsonData.clusters.forEach((point) => {
+    if (!clusterTraces[point.cluster]) {
+      clusterTraces[point.cluster] = {
+        x: [],
+        y: [],
+        z: [],
+        mode: "markers",
+        type: "scatter3d",
+        marker: { size: 5, color: colors[point.cluster] },
+        name: `Cluster ${point.cluster}`,
+      };
+    }
+    clusterTraces[point.cluster].x.push(point.x);
+    clusterTraces[point.cluster].y.push(point.y);
+    clusterTraces[point.cluster].z.push(point.z);
+  });
+
+  const layout = {
+    scene: {
+      xaxis: { title: "Recency" },
+      yaxis: { title: "Frequency" },
+      zaxis: { title: "Monetary" },
+    },
+  };
+
+  const centroidTrace = {
+    x: jsonData.centroids.map((c) => c.x),
+    y: jsonData.centroids.map((c) => c.y),
+    z: jsonData.centroids.map((c) => c.z),
+    mode: "markers",
+    type: "scatter3d",
+    marker: { size: 5, color: "black", symbol: "x" },
+    name: "Centroids",
+  };
+
+  Plotly.newPlot("clusterOrder", [...clusterTraces, centroidTrace], layout);
+</script>
+
+<script>
+  const colors2D = ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0', '#9966FF'];
+
+  function createSubplots() {
+      const pairs = [
+          { xKey: "x", yKey: "y", xLabel: "Recency", yLabel: "Frequency" },
+          { xKey: "x", yKey: "z", xLabel: "Recency", yLabel: "Monetary" },
+          { xKey: "y", yKey: "z", xLabel: "Frequency", yLabel: "Monetary" }
+      ];
+
+      const subplotData = [];
+
+      pairs.forEach((pair, index) => {
+          const clusterTraces = {};
+
+          jsonData.clusters.forEach((point) => {
+              if (!clusterTraces[point.cluster]) {
+                  clusterTraces[point.cluster] = {
+                      x: [],
+                      y: [],
+                      mode: "markers",
+                      type: "scatter",
+                      marker: {
+                          size: 5,
+                          color: colors2D[point.cluster % colors2D.length]
+                      },
+                      name: `Cluster ${point.cluster}`,
+                      xaxis: `x${index + 1}`,
+                      yaxis: `y${index + 1}`,
+                      showlegend: index === 0
+                  };
+              }
+              clusterTraces[point.cluster].x.push(point[pair.xKey]);
+              clusterTraces[point.cluster].y.push(point[pair.yKey]);
+          });
+
+          const centroidTrace = {
+              x: jsonData.centroids.map(c => c[pair.xKey]),
+              y: jsonData.centroids.map(c => c[pair.yKey]),
+              mode: "markers",
+              type: "scatter",
+              marker: {
+                  size: 10,
+                  color: "black",
+                  symbol: "x"
+              },
+              name: "Centroids",
+              xaxis: `x${index + 1}`,
+              yaxis: `y${index + 1}`,
+              showlegend: index === 0
+          };
+
+          subplotData.push(...Object.values(clusterTraces), centroidTrace);
+      });
+
+      const layout = {
+          grid: { rows: 1, columns: 3, pattern: "independent" },
+          margin: { t: 40, b: 50, l: 40, r: 20 },
+          height: 400,
+          autosize: true,
+          legend: { orientation: "h", x: 0.5, xanchor: "center", y: -0.2 }
+      };
+
+      pairs.forEach((pair, index) => {
+          layout[`xaxis${index + 1}`] = { title: pair.xLabel, showgrid: false };
+          layout[`yaxis${index + 1}`] = { title: pair.yLabel, showgrid: false };
+      });
+
+      Plotly.newPlot("scatterPlotCombined", subplotData, layout, { responsive: true });
+  }
+
+  createSubplots();
+</script>
+
+
+
+
+<script>
+  const jsonData1 = {{data1|safe}};
+  const clusterTraces1 = [];
+  const colors1 = ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0', '#9966FF'];
+
+  jsonData1.clusters.forEach((point) => {
+    if (!clusterTraces1[point.cluster]) {
+      clusterTraces1[point.cluster] = {
+        x: [],
+        y: [],
+        z: [],
+        mode: "markers",
+        type: "scatter3d",
+        marker: { size: 5, color: colors1[point.cluster] },
+        name: `Cluster ${point.cluster}`,
+      };
+    }
+    clusterTraces1[point.cluster].x.push(point.x);
+    clusterTraces1[point.cluster].y.push(point.y);
+    clusterTraces1[point.cluster].z.push(point.z);
+  });
+
+  const layout1 = {
+    scene: {
+      xaxis: { title: "Recency" },
+      yaxis: { title: "Frequency" },
+      zaxis: { title: "Monetary" },
+    },
+  };
+
+  const centroidTrace1 = {
+    x: jsonData1.centroids.map((c) => c.x),
+    y: jsonData1.centroids.map((c) => c.y),
+    z: jsonData1.centroids.map((c) => c.z),
+    mode: "markers",
+    type: "scatter3d",
+    marker: { size: 5, color: "black", symbol: "x" },
+    name: "Centroids",
+  };
+
+  Plotly.newPlot("clusterRayu", [...clusterTraces1, centroidTrace1], layout1);
+</script>
+
+<script>
+  const colors2 = ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0', '#9966FF'];
+
+  const axisLabels = {
+      x: "Recency",
+      y: "Frequency",
+      z: "Monetary"
+  };
+
+  function createSubplotsRM() {
+      const pairs = [
+          { xKey: "x", yKey: "y" },  // Recency vs Frequency
+          { xKey: "x", yKey: "z" },  // Recency vs Monetary
+          { xKey: "y", yKey: "z" }   // Frequency vs Monetary
+      ];
+
+      const traces = [];
+
+      pairs.forEach((pair, index) => {
+          const clusterTraces = {};
+
+          jsonData1.clusters.forEach((point) => {
+              if (!clusterTraces[point.cluster]) {
+                  clusterTraces[point.cluster] = {
+                      x: [],
+                      y: [],
+                      mode: "markers",
+                      type: "scatter",
+                      marker: { size: 6, color: colors2[point.cluster % colors2.length] },
+                      name: `Cluster ${point.cluster}`,
+                      xaxis: `x${index + 1}`,
+                      yaxis: `y${index + 1}`,
+                      showlegend: index === 0
+                  };
+              }
+              clusterTraces[point.cluster].x.push(point[pair.xKey]);
+              clusterTraces[point.cluster].y.push(point[pair.yKey]);
+          });
+
+          const centroidTrace = {
+              x: jsonData1.centroids.map(c => c[pair.xKey]),
+              y: jsonData1.centroids.map(c => c[pair.yKey]),
+              mode: "markers",
+              type: "scatter",
+              marker: { size: 10, color: "black", symbol: "x" },
+              name: "Centroids",
+              xaxis: `x${index + 1}`,
+              yaxis: `y${index + 1}`,
+              showlegend: index === 0
+          };
+
+          traces.push(...Object.values(clusterTraces), centroidTrace);
+      });
+
+      const layout = {
+          grid: { rows: 1, columns: 3, pattern: "independent" },
+          margin: { t: 40, b: 50, l: 40, r: 20 },
+          height: 400,
+          autosize: true,
+          legend: { orientation: "h", x: 0.5, xanchor: "center", y: -0.2 }
+      };
+
+      pairs.forEach((pair, index) => {
+          layout[`xaxis${index + 1}`] = { title: axisLabels[pair.xKey], showgrid: false };
+          layout[`yaxis${index + 1}`] = { title: axisLabels[pair.yKey], showgrid: false };
+      });
+
+      Plotly.newPlot("scatterPlotRMCombined", traces, layout, { responsive: true });
+  }
+
+  createSubplotsRM();
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+
+<script>
+  Chart.register(ChartDataLabels);
+
+  const jsonData2 = {{data2|safe}};
+  const labels = Object.keys(jsonData2);
+  const values = Object.values(jsonData2);
+  const total = values.reduce((acc, value) => acc + value, 0);
+
+  const ctx = document.getElementById('OrderPieChart').getContext('2d');
+
+  new Chart(ctx, {
+    type: 'pie',
+    data: {  
+      labels: labels,
+      datasets: [{
+        data: values,  
+        backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0', '#9966FF'],
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'top',
+        },
+        tooltip: {
+          enabled: true,
+          callbacks: {
+            label: (tooltipItem) => {
+              let dataset = tooltipItem.dataset;
+              let value = dataset.data[tooltipItem.dataIndex];
+              let percentage = ((value / total) * 100).toFixed(2);
+              return `${tooltipItem.label}: ${percentage}%`;
+            }
+          }
+        },
+        datalabels: {
+          color: 'white',
+          font: { weight: 'bold', size: 12 },
+          formatter: (value) => `${((value / total) * 100).toFixed(2)}%`
+        }
+      }
+    }
+  });
+
+  // Second Pie Chart (RayuPieChart)
+  const jsonData3 = {{data3|safe}};
+  const labels_rm = Object.keys(jsonData3);
+  const values_rm = Object.values(jsonData3);
+  const total_rm = values_rm.reduce((acc, value) => acc + value, 0); // ✅ FIXED
+
+  const ctx_rm = document.getElementById('RayuPieChart').getContext('2d'); // ✅ FIXED
+
+  new Chart(ctx_rm, {
+    type: 'pie',
+    data: {  
+      labels: labels_rm,
+      datasets: [{
+        data: values_rm,  
+        backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0', '#9966FF'],
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'top',
+        },
+        tooltip: {
+          enabled: true,
+          callbacks: {
+            label: (tooltipItem) => {
+              let dataset = tooltipItem.dataset;
+              let value = dataset.data[tooltipItem.dataIndex];
+              let percentage = ((value / total_rm) * 100).toFixed(2);
+              return `${tooltipItem.label}: ${percentage}%`;
+            }
+          }
+        },
+        datalabels: {
+          color: 'white',
+          font: { weight: 'bold', size: 12 },
+          formatter: (value) => `${((value / total_rm) * 100).toFixed(2)}%`
+        }
+      }
+    }
+  });
+</script>
+
+{% endblock %}

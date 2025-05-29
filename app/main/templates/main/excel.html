@@ -1,0 +1,216 @@
+{% set title = 'Data Clustering' %}
+{% set page = 'excel.html' %}
+{% extends 'base.html' %}
+
+{% block plugins_css %}
+  <link rel="stylesheet" href="../node_modules/jqvmap/dist/jqvmap.min.css">
+  <link rel="stylesheet" href="../node_modules/summernote/dist/summernote-bs4.css">
+  <link rel="stylesheet" href="../node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="../node_modules/owl.carousel/dist/assets/owl.theme.default.min.css">
+{% endblock %}
+
+{% block content %}
+<div class="main-content">
+  <div class="col-md">
+    <section class="section">
+      <div class="section-header">
+        <h1>Data Clustering</h1>
+      </div>
+      <div class="row">
+        <div class="card" style="margin: 12px; width: 955px;">
+          <div class="card-header">
+            <h4 class="mb-0" style="font-size: 20px;">Data Sheet Order</h4>
+          </div>
+          <style>
+            .table-container {
+                  max-height: 500px; 
+                  overflow-y: auto;
+                  border: 1px solid #e0e0e0;
+                  border-radius: 8px;
+                }
+
+                .table-custom thead th {
+                  position: sticky;
+                  top: 0;
+                  z-index: 1;
+                }
+
+              .table-custom {
+                width: 100%;
+                border-collapse: collapse;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 14px;
+              }
+
+              .table-custom th, .table-custom td {
+                padding: 12px 16px;
+                text-align: left;
+                border-bottom: 1px solid #eaeaea;
+              }
+
+              .table-custom thead th {
+                background-color: #f5f7fa;
+                color: #333;
+                font-weight: 600;
+                border-bottom: 2px solid #d1d5db;
+              }
+
+              .table-custom tbody tr:nth-child(odd) {
+                background-color: #f9fafb;
+              }
+
+              .table-custom tbody tr:hover {
+                background-color: #eef2f7;
+                transition: background-color 0.3s;
+              }
+
+              .card-upload1 {
+                box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+                border-radius: 12px;
+                overflow: hidden;
+              }
+
+              .card-header {
+                background-color: #f0f4f8;
+                border-bottom: 1px solid #e0e6ed;
+                padding: 16px 20px;
+              }
+
+              .card-header h4 {
+                margin: 0;
+                font-weight: 600;
+                color: #2c3e50;
+              }
+
+              .card-body {
+                padding: 20px;
+              }
+            </style>
+          <div class="card-body">
+            <div class="table-container">
+              {{ table_order|safe }}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="card" style="margin: 12px; width: 955px;">
+          <div class="card-header">
+            <h4 class="mb-0" style="font-size: 20px;">Data Sheet Rayu Manis</h4>
+          </div>
+          <style>
+            .table-container {
+                  max-height: 500px; 
+                  overflow-y: auto;
+                  border: 1px solid #e0e0e0;
+                  border-radius: 8px;
+                }
+
+                .table-custom thead th {
+                  position: sticky;
+                  top: 0;
+                  z-index: 1;
+                }
+
+              .table-custom {
+                width: 100%;
+                border-collapse: collapse;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 14px;
+              }
+
+              .table-custom th, .table-custom td {
+                padding: 12px 16px;
+                text-align: left;
+                border-bottom: 1px solid #eaeaea;
+              }
+
+              .table-custom thead th {
+                background-color: #f5f7fa;
+                color: #333;
+                font-weight: 600;
+                border-bottom: 2px solid #d1d5db;
+              }
+
+              .table-custom tbody tr:nth-child(odd) {
+                background-color: #f9fafb;
+              }
+
+              .table-custom tbody tr:hover {
+                background-color: #eef2f7;
+                transition: background-color 0.3s;
+              }
+
+              .card-upload1 {
+                box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+                border-radius: 12px;
+                overflow: hidden;
+              }
+
+              .card-header {
+                background-color: #f0f4f8;
+                border-bottom: 1px solid #e0e6ed;
+                padding: 16px 20px;
+              }
+
+              .card-header h4 {
+                margin: 0;
+                font-weight: 600;
+                color: #2c3e50;
+              }
+
+              .card-body {
+                padding: 20px;
+              }
+            </style>
+          <div class="card-body">
+            <div class="table-container">
+              {{ table_rayu|safe }}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12">
+                  <a href="{{ url_for('main.dashboard') }}"
+                    class="btn btn-primary rounded-4 px-4 py-2"
+                    style=" margin-bottom: 20px; width: 910px; margin-left: 20px; font-size: 16px; border-color: #d1d5db; background-color: #ffffff; color: #212529; transition: background-color 0.2s ease, color 0.2s ease;"
+                    onmouseover="this.style.backgroundColor='#6777ef'; this.style.color='#ffffff'; this.querySelector('i').style.color='#ffffff';"
+                    onmouseout="this.style.backgroundColor='#ffffff'; this.style.color='#212529'; this.querySelector('i').style.color='#212529';">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bar-chart-line" viewBox="0 0 16 16">
+                      <path d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1zm1 12h2V2h-2zm-3 0V7H7v7zm-5 0v-3H2v3z"/>
+                    </svg> Dashboard Clustering
+                  </a>
+                </div>
+    </section>
+  </div>
+</div>
+  
+<!-- Flash Messages -->
+{% with messages = get_flashed_messages(with_categories=true) %}
+  {% if messages %}
+    <div class="container mt-4">
+      {% for category, message in messages %}
+        <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
+          {{ message }}
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+{% endwith %}
+{% endblock content %}
+
+{% block plugins_js %}
+  <script src="../node_modules/simpleweather/jquery.simpleWeather.min.js"></script>
+  <script src="../node_modules/chart.js/dist/Chart.min.js"></script>
+  <script src="../node_modules/jqvmap/dist/jquery.vmap.min.js"></script>
+  <script src="../node_modules/jqvmap/dist/maps/jquery.vmap.world.js"></script>
+  <script src="../node_modules/summernote/dist/summernote-bs4.js"></script>
+  <script src="../node_modules/chocolat/dist/js/jquery.chocolat.min.js"></script>
+{% endblock %}
+
+{% block page_js %}
+  <script src="../assets/js/page/index.js"></script>
+{% endblock %}

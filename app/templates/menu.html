@@ -1,0 +1,36 @@
+<ul class="sidebar-menu">
+    <li class=active><a class="nav-link" href="{{ url_for('main.excel') }}">Data Clustering</a></li>
+    <li class=active><a class="nav-link" href="{{ url_for('main.dashboard') }}">Main Dashboard</a></li>
+    <li class="menu-header">Dashboard</li>
+    <li class="nav-item">
+      <li class=active>
+      <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#clusterMenu">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bar-chart-line" viewBox="0 0 16 16">
+          <path d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1zm1 12h2V2h-2zm-3 0V7H7v7zm-5 0v-3H2v3z"/>
+        </svg><span style="padding-left: 20px;">Visualisasi Cluster</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down" viewBox="0 0 16 16">
+          <path d="M3.204 5h9.592L8 10.481zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659"/>
+        </svg>
+      </a></li>
+      <ul id="clusterMenu" class="collapse">
+        <li class=active><a class="nav-link" href="{{ url_for('main.dashboard1') }}">Sheet Order</a></li>
+        <li class=active><a class="nav-link" href="{{ url_for('main.dashboard2') }}">Sheet Rayu Manis</a></li>
+      </ul>
+    </li>
+    <li class="menu-header">Data</li>
+    <li class="nav-item">
+      <li class=active>
+      <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#clusterMenu">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-table" viewBox="0 0 16 16">
+          <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 2h-4v3h4zm0 4h-4v3h4zm0 4h-4v3h3a1 1 0 0 0 1-1zm-5 3v-3H6v3zm-5 0v-3H1v2a1 1 0 0 0 1 1zm-4-4h4V8H1zm0-4h4V4H1zm5-3v3h4V4zm4 4H6v3h4z"/>
+        </svg>
+        <span style="padding-left: 20px;">Tabel Data Cluster</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down" viewBox="0 0 16 16">
+          <path d="M3.204 5h9.592L8 10.481zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659"/>
+        </svg>
+      </a></li>
+      <ul id="clusterMenu" class="collapse">
+        <li class=active><a class="nav-link" href="{{ url_for('main.table1') }}">Sheet Order</a></li>
+        <li class=active><a class="nav-link" href="{{ url_for('main.table2') }}">Sheet Rayu Manis</a></li>
+      </ul>
+    </li>

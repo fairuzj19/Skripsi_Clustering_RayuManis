@@ -1,0 +1,131 @@
+{% set title = 'Data Cluster Sheet Order' %}
+{% set page = 'table_order.html' %}
+{% extends 'base.html' %}
+
+{% block plugins_css %}
+  <link rel="stylesheet" href="../node_modules/jqvmap/dist/jqvmap.min.css">
+  <link rel="stylesheet" href="../node_modules/summernote/dist/summernote-bs4.css">
+  <link rel="stylesheet" href="../node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="../node_modules/owl.carousel/dist/assets/owl.theme.default.min.css">
+{% endblock %}
+
+{% block content %}
+  <div class="main-content">
+      <div class="col-md">
+          <section class="section">
+              <div class="section-header" style="margin-bottom: 15px !important;">
+                  <h1>Data Cluster Sheet Order</h1>
+              </div>
+              <div class="row mb-4" style="margin-bottom: 5px !important;">
+                <!-- Tombol Dashboard -->
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <a href="{{ url_for('main.dashboard') }}"
+                    class="d-flex align-items-center justify-content-center gap-2 border rounded-4 px-4 py-2 w-100 text-decoration-none"
+                    style="font-size: 16px; border-color: #d1d5db; background-color: #ffffff; color: #212529; transition: background-color 0.2s ease, color 0.2s ease;"
+                    onmouseover="this.style.backgroundColor='#6777ef'; this.style.color='#ffffff'; this.querySelector('i').style.color='#ffffff';"
+                    onmouseout="this.style.backgroundColor='#ffffff'; this.style.color='#212529'; this.querySelector('i').style.color='#212529';">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
+                      <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4z"/>
+                    </svg>Dashboard
+                  </a>
+                </div>
+
+                <!-- Tombol Insight Cluster -->
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <a href="{{ url_for('main.dashboard1') }}"
+                    class="d-flex align-items-center justify-content-center gap-2 border rounded-4 px-4 py-2 w-100 text-decoration-none"
+                    style="font-size: 16px; border-color: #d1d5db; background-color: #ffffff; color: #212529; transition: background-color 0.2s ease, color 0.2s ease;"
+                    onmouseover="this.style.backgroundColor='#6777ef'; this.style.color='#ffffff'; this.querySelector('i').style.color='#ffffff';"
+                    onmouseout="this.style.backgroundColor='#ffffff'; this.style.color='#212529'; this.querySelector('i').style.color='#212529';">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bar-chart-line" viewBox="0 0 16 16">
+                      <path d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1zm1 12h2V2h-2zm-3 0V7H7v7zm-5 0v-3H2v3z"/>
+                    </svg> Insight Cluster Order
+                  </a>
+                </div>
+              </div>
+              <div class="row">
+                  <div class="card" style="margin: 12px; width: 955px;">
+                    <div class="card-header">
+                      <h4>Data Cluster Order</h4>
+                    </div>
+                    <div class="form-check form-switch mb-3" style="margin-left: 35px;">
+                      <input class="form-check-input" type="checkbox" role="switch" id="rfmToggle" onchange="toggleMultipleColumns([3, 4, 5])" style="cursor: pointer; transform: scale(1.5);">
+                      <label class="form-check-label" for="rfmToggle" id="rfmToggleLabel" style="margin-left: 7px;">Hide RFM Columns</label>
+                    </div>
+                    <div class="card-body">
+                      <div style="overflow-x: auto;">
+                        <table style="min-width: 1200px; width: 100%;">
+                          <thead>
+                            <tr>
+                              {% for key in merged_data1[0].keys() %}
+                              <th>{{ key }}</th>
+                              {% endfor %}
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {% for row in merged_data1 %}
+                            <tr>
+                              {% for key, value in row.items() %}
+                              <td>
+                              {% if key == 'No. WA' %}
+                                {% set wa_value = value|string %}
+                                {% if wa_value.startswith('0') %}
+                                  <a href="https://wa.me/62{{ wa_value[1:] }}" target="_blank">{{ wa_value }}</a>
+                                {% else %}
+                                  <a href="https://wa.me/{{ wa_value }}" target="_blank">{{ wa_value }}</a>
+                                {% endif %}
+                              {% else %}
+                                {{ value }}
+                              {% endif %}
+                            </td>
+                              {% endfor %}
+                            </tr>
+                            {% endfor %}
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>                                 
+                  </div>
+              </div>
+          </section>
+      </div>
+  </div>
+{% endblock content %}
+
+{% block plugins_js %}
+  <script src="../node_modules/simpleweather/jquery.simpleWeather.min.js"></script>
+  <script src="../node_modules/chart.js/dist/Chart.min.js"></script>
+  <script src="../node_modules/jqvmap/dist/jquery.vmap.min.js"></script>
+  <script src="../node_modules/jqvmap/dist/maps/jquery.vmap.world.js"></script>
+  <script src="../node_modules/summernote/dist/summernote-bs4.js"></script>
+  <script src="../node_modules/chocolat/dist/js/jquery.chocolat.min.js"></script>
+
+  <script>
+  let hiddenColumns = {};
+  let rfmHidden = false;
+
+  function toggleMultipleColumns(indexes) {
+    const rows = document.querySelectorAll("table tr");
+    rfmHidden = !rfmHidden;
+
+    indexes.forEach(index => {
+      rows.forEach(row => {
+        const cells = row.querySelectorAll("th, td");
+        if (cells.length > index) {
+          cells[index].style.display = rfmHidden ? "none" : "";
+        }
+      });
+      hiddenColumns[index] = rfmHidden;
+    });
+
+    // Ubah label toggle
+    const label = document.getElementById("rfmToggleLabel");
+    label.innerText = rfmHidden ? "Unhide RFM Columns" : "Hide RFM Columns";
+  }
+</script>
+  
+{% endblock %}
+
+{% block page_js %}
+  <script src="../assets/js/page/index-0.js"></script>
+{% endblock %}

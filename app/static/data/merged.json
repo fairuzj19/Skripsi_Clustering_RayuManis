@@ -1,0 +1,3728 @@
+[
+    {
+        "No. Cust": "A1157",
+        "Customer": "Almira Hasna Zulfany",
+        "No. WA": 6285854577350,
+        "Recency_normalized": 0.9847089717232869,
+        "Frequency_normalized": 0.39398998330550916,
+        "Monetary_normalized": 0.8977424451508639,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1158",
+        "Customer": "Nona",
+        "No. WA": 6282331444423,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 1.0,
+        "Monetary_normalized": 0.5267469275270009,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1159",
+        "Customer": "Khansa",
+        "No. WA": 6281554078977,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.998330550918197,
+        "Monetary_normalized": 0.6267873251503435,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1160",
+        "Customer": "Nenock",
+        "No. WA": 628121642216,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.998330550918197,
+        "Monetary_normalized": 0.519206666016426,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1170",
+        "Customer": "Rejanuar",
+        "No. WA": 6287855147871,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.996661101836394,
+        "Monetary_normalized": 0.3959999023636428,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1138",
+        "Customer": "Rizki F",
+        "No. WA": 628114221788,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.996661101836394,
+        "Monetary_normalized": 0.519206666016426,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1161",
+        "Customer": "Sinta",
+        "No. WA": 6281335254271,
+        "Recency_normalized": 0.5404763088546394,
+        "Frequency_normalized": 0.4507512520868113,
+        "Monetary_normalized": 0.6560979861255869,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1162",
+        "Customer": "Julia",
+        "No. WA": 6285648578102,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.988313856427379,
+        "Monetary_normalized": 0.5410310268178585,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1163",
+        "Customer": "Farrah",
+        "No. WA": 6282257145944,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.988313856427379,
+        "Monetary_normalized": 0.3995074147887859,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1165",
+        "Customer": "Malda",
+        "No. WA": 6281233450025,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.9816360601001669,
+        "Monetary_normalized": 0.48128061628678925,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1164",
+        "Customer": "Nindy Hantoro",
+        "No. WA": 6281249803351,
+        "Recency_normalized": 0.5404763088546394,
+        "Frequency_normalized": 0.9816360601001669,
+        "Monetary_normalized": 0.6233785805848631,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1166",
+        "Customer": "Ica",
+        "No. WA": 6287855942010,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.9816360601001669,
+        "Monetary_normalized": 0.5622800041830576,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1167",
+        "Customer": "Dayinta",
+        "No. WA": 6281230340456,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.9782971619365609,
+        "Monetary_normalized": 0.5357923259879819,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1168",
+        "Customer": "Haidar",
+        "No. WA": 628114141001,
+        "Recency_normalized": 0.4884162585319793,
+        "Frequency_normalized": 0.9348914858096828,
+        "Monetary_normalized": 0.6702071956303587,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1169",
+        "Customer": "Van Van",
+        "No. WA": 6287855538965,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.9782971619365609,
+        "Monetary_normalized": 0.5032237803575774,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1172",
+        "Customer": "Roni",
+        "No. WA": 6285331446036,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.9766277128547579,
+        "Monetary_normalized": 0.48586440670313175,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1173",
+        "Customer": "Rahma Dina",
+        "No. WA": 62895333870810,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.9766277128547579,
+        "Monetary_normalized": 0.3959999023636428,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1171",
+        "Customer": "Tasya",
+        "No. WA": 6287824623469,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.9766277128547579,
+        "Monetary_normalized": 0.5357923259879819,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1174",
+        "Customer": "Ahrash",
+        "No. WA": 6287783995166,
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.9766277128547579,
+        "Monetary_normalized": 0.6589998983677604,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1175",
+        "Customer": "Dinda",
+        "No. WA": 6285755465494,
+        "Recency_normalized": 0.5863965276354697,
+        "Frequency_normalized": 0.24040066777963273,
+        "Monetary_normalized": 0.695770420727693,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1176",
+        "Customer": "Rafa Hylmi",
+        "No. WA": "6281382678041",
+        "Recency_normalized": 0.4283173410313946,
+        "Frequency_normalized": 0.9749582637729549,
+        "Monetary_normalized": 0.5964480811316397,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1178",
+        "Customer": "Nuni",
+        "No. WA": 6285395560747,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.9716193656093489,
+        "Monetary_normalized": 0.41295753277861774,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1177",
+        "Customer": "Clara Carissa",
+        "No. WA": "6287834834303",
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.9716193656093489,
+        "Monetary_normalized": 0.5897914023803847,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1179",
+        "Customer": "Prima Apriyana",
+        "No. WA": 628124303128,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.9682804674457429,
+        "Monetary_normalized": 0.42248736282548405,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1181",
+        "Customer": "Syanis",
+        "No. WA": 6288102652517,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.9666110183639399,
+        "Monetary_normalized": 0.5527500990708233,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1180",
+        "Customer": "Dharacaa",
+        "No. WA": 6285230687817,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.9666110183639399,
+        "Monetary_normalized": 0.4374332658237524,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1182",
+        "Customer": "Hana",
+        "No. WA": 6285736108611,
+        "Recency_normalized": 0.4283173410313946,
+        "Frequency_normalized": 0.8063439065108514,
+        "Monetary_normalized": 0.5575713353861945,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1183",
+        "Customer": "Danira",
+        "No. WA": 6281232210444,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.9649415692821369,
+        "Monetary_normalized": 0.42248736282548405,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1184",
+        "Customer": "Hanna",
+        "No. WA": 6285655437525,
+        "Recency_normalized": 0.4884162585319793,
+        "Frequency_normalized": 0.9282136894824707,
+        "Monetary_normalized": 0.6511667037264378,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1185",
+        "Customer": "Dina",
+        "No. WA": 62895628117796,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.9649415692821369,
+        "Monetary_normalized": 0.4693435230542967,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1186",
+        "Customer": "Ida",
+        "No. WA": 6282153532877,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.9649415692821369,
+        "Monetary_normalized": 0.5444493913544772,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1187",
+        "Customer": "Berlyana Tri",
+        "No. WA": 6285843841175,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.9649415692821369,
+        "Monetary_normalized": 0.5357923259879819,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1188",
+        "Customer": "Audi",
+        "No. WA": 6281329199019,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.9649415692821369,
+        "Monetary_normalized": 0.48128061628678925,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1189",
+        "Customer": "Lala",
+        "No. WA": 62881036067588,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.9649415692821369,
+        "Monetary_normalized": 0.5444493913544772,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1195",
+        "Customer": "Tikha",
+        "No. WA": 6282221112360,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.9649415692821369,
+        "Monetary_normalized": 0.5444493913544772,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1190",
+        "Customer": "Anisa Aryant",
+        "No. WA": 6285806275078,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.9649415692821369,
+        "Monetary_normalized": 0.5357923259879819,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1191",
+        "Customer": "Maira",
+        "No. WA": 6282232378413,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.9649415692821369,
+        "Monetary_normalized": 0.37748446036485217,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1192",
+        "Customer": "Rana",
+        "No. WA": 628973206656,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.9649415692821369,
+        "Monetary_normalized": 0.5410310268178585,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1193",
+        "Customer": "Anita Maharani",
+        "No. WA": 6281337898879,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.9649415692821369,
+        "Monetary_normalized": 0.5392998689145057,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1197",
+        "Customer": "Aqila",
+        "No. WA": 6285708337499,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.9649415692821369,
+        "Monetary_normalized": 0.5444493913544772,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1194",
+        "Customer": "Dewi",
+        "No. WA": 62895396059995,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.9649415692821369,
+        "Monetary_normalized": 0.5357923259879819,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1196",
+        "Customer": "Indah Ummu Erdana",
+        "No. WA": 6282131385541,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.3105175292153589,
+        "Monetary_normalized": 0.5977534519232441,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1199",
+        "Customer": "Dinda Aulia",
+        "No. WA": 6281217537868,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.9632721202003339,
+        "Monetary_normalized": 0.5461370890767098,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1200",
+        "Customer": "Safira",
+        "No. WA": 6281331303501,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.9632721202003339,
+        "Monetary_normalized": 0.41295753277861774,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1201",
+        "Customer": "Naily",
+        "No. WA": 6285707909593,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.9632721202003339,
+        "Monetary_normalized": 0.4374332658237524,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1202",
+        "Customer": "Tika",
+        "No. WA": 6287885805719,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.9632721202003339,
+        "Monetary_normalized": 0.4161844362063262,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1198",
+        "Customer": "Alex",
+        "No. WA": 6281953764106,
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.9632721202003339,
+        "Monetary_normalized": 0.4374332658237524,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1203",
+        "Customer": "Nathania",
+        "No. WA": 62811218988,
+        "Recency_normalized": 0.4884162585319793,
+        "Frequency_normalized": 0.9632721202003339,
+        "Monetary_normalized": 0.6066618641744793,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1204",
+        "Customer": "Jessica",
+        "No. WA": 62881036608216,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.9632721202003339,
+        "Monetary_normalized": 0.5032237803575774,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1205",
+        "Customer": "Rini",
+        "No. WA": 6281261347075,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.9632721202003339,
+        "Monetary_normalized": 0.5267469275270009,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1206",
+        "Customer": "Asya",
+        "No. WA": 6281234441285,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.9632721202003339,
+        "Monetary_normalized": 0.5133605048080429,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1207",
+        "Customer": "Audry Azzahra",
+        "No. WA": 6281939714604,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.9632721202003339,
+        "Monetary_normalized": 0.5357923259879819,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1208",
+        "Customer": "Nita",
+        "No. WA": 6289525347293,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.9632721202003339,
+        "Monetary_normalized": 0.5527500990708233,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1107",
+        "Customer": "Pika",
+        "No. WA": 6282231898385,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.9632721202003339,
+        "Monetary_normalized": 0.3959999023636428,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1212",
+        "Customer": "Dwi",
+        "No. WA": 6287852276629,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.9632721202003339,
+        "Monetary_normalized": 0.4161844362063262,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1213",
+        "Customer": "Andri",
+        "No. WA": 6282167620322,
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.9632721202003339,
+        "Monetary_normalized": 0.29764195418314593,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1097",
+        "Customer": "Athaya",
+        "No. WA": 6281336923694,
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.9632721202003339,
+        "Monetary_normalized": 0.32457189706917733,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1209",
+        "Customer": "Glaniz",
+        "No. WA": 6281213120426,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.9632721202003339,
+        "Monetary_normalized": 0.3959999023636428,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1211",
+        "Customer": "Nadia Qisthi",
+        "No. WA": 6285862411171,
+        "Recency_normalized": 0.6274735630753034,
+        "Frequency_normalized": 0.7829716193656093,
+        "Monetary_normalized": 0.673808710767885,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1214",
+        "Customer": "Michelle",
+        "No. WA": 6281259465732,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.9599332220367279,
+        "Monetary_normalized": 0.5032237803575774,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1149",
+        "Customer": "Dinda Jamuuaan",
+        "No. WA": 6283857023085,
+        "Recency_normalized": 0.5863965276354697,
+        "Frequency_normalized": 0.7195325542570952,
+        "Monetary_normalized": 0.7775445145196178,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1215",
+        "Customer": "Hanif Ariq",
+        "No. WA": 6281235530136,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.9599332220367279,
+        "Monetary_normalized": 0.5870659686631603,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1216",
+        "Customer": "Rania",
+        "No. WA": 628975542041,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.9582637729549248,
+        "Monetary_normalized": 0.36957456683093215,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1217",
+        "Customer": "Hana",
+        "No. WA": 6282143383304,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.9582637729549248,
+        "Monetary_normalized": 0.48586440670313175,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1219",
+        "Customer": "Vyra",
+        "No. WA": 6281553006438,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.9549248747913188,
+        "Monetary_normalized": 0.48128061628678925,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1220",
+        "Customer": "Indah",
+        "No. WA": 62882009478933,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.9549248747913188,
+        "Monetary_normalized": 0.4765902178324861,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1221",
+        "Customer": "Ikbal",
+        "No. WA": 6289657513239,
+        "Recency_normalized": 0.4884162585319793,
+        "Frequency_normalized": 0.7779632721202003,
+        "Monetary_normalized": 0.6115811119205133,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1222",
+        "Customer": "Yasmine Rizky Sabrina",
+        "No. WA": 6282231834117,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.9532554257095158,
+        "Monetary_normalized": 0.5032237803575774,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1223",
+        "Customer": "Dian",
+        "No. WA": 6281356075286,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.9532554257095158,
+        "Monetary_normalized": 0.5032237803575774,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1224",
+        "Customer": "Dimas Akbar",
+        "No. WA": 6281259489705,
+        "Recency_normalized": 0.4283173410313946,
+        "Frequency_normalized": 0.9532554257095158,
+        "Monetary_normalized": 0.6028920510142617,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1226",
+        "Customer": "Della",
+        "No. WA": 6283831479272,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.9532554257095158,
+        "Monetary_normalized": 0.4618267070664152,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1225",
+        "Customer": "Sellananda",
+        "No. WA": 6285749211677,
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.9532554257095158,
+        "Monetary_normalized": 0.48811781713133084,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1227",
+        "Customer": "Arifa",
+        "No. WA": 6285163211736,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.9515859766277128,
+        "Monetary_normalized": 0.3959999023636428,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1228",
+        "Customer": "Afifah",
+        "No. WA": 6281807851307,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.9515859766277128,
+        "Monetary_normalized": 0.42248736282548405,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1229",
+        "Customer": "Ayu Dwi Jayati",
+        "No. WA": 6285749008451,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.9515859766277128,
+        "Monetary_normalized": 0.47420346806167346,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1230",
+        "Customer": "Anggi",
+        "No. WA": 6285785430957,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.9515859766277128,
+        "Monetary_normalized": 0.36957456683093215,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1231",
+        "Customer": "Ale",
+        "No. WA": 6281225598380,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.9515859766277128,
+        "Monetary_normalized": 0.4765902178324861,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1232",
+        "Customer": "Lintang Nur",
+        "No. WA": 6287820649377,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.9515859766277128,
+        "Monetary_normalized": 0.4990219973867768,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1233",
+        "Customer": "Nazila",
+        "No. WA": 6285749000155,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.9515859766277128,
+        "Monetary_normalized": 0.5172767138855932,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1234",
+        "Customer": "Vany",
+        "No. WA": 6285708150135,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.9515859766277128,
+        "Monetary_normalized": 0.5757802846123596,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1236",
+        "Customer": "Denta",
+        "No. WA": 6282139184276,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.9515859766277128,
+        "Monetary_normalized": 0.6115811119205133,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1237",
+        "Customer": "Indah",
+        "No. WA": 6285607804570,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.9515859766277128,
+        "Monetary_normalized": 0.3959999023636428,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1240",
+        "Customer": "Kukun",
+        "No. WA": 628121710699,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.9482470784641068,
+        "Monetary_normalized": 0.5591531380579133,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1239",
+        "Customer": "Rosita ",
+        "No. WA": 6289607657141,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.9482470784641068,
+        "Monetary_normalized": 0.4968878160492144,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1241",
+        "Customer": "Sarita Rahel Diang",
+        "No. WA": 6281910041997,
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.9482470784641068,
+        "Monetary_normalized": 0.2453053427247514,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1021",
+        "Customer": "Niken",
+        "No. WA": 6282132950010,
+        "Recency_normalized": 0.4283173410313946,
+        "Frequency_normalized": 0.9482470784641068,
+        "Monetary_normalized": 0.6210736499413657,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1242",
+        "Customer": "Bella",
+        "No. WA": 6285812554382,
+        "Recency_normalized": 0.4283173410313946,
+        "Frequency_normalized": 0.9432387312186978,
+        "Monetary_normalized": 0.5843031993334048,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1243",
+        "Customer": "Bella",
+        "No. WA": 6282220676047,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.9482470784641068,
+        "Monetary_normalized": 0.5285887535402954,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1244",
+        "Customer": "Firman Fuadi",
+        "No. WA": 6281249991181,
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.9465776293823038,
+        "Monetary_normalized": 0.46436356883886526,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1245",
+        "Customer": "Mesya",
+        "No. WA": 6281330448871,
+        "Recency_normalized": 0.4283173410313946,
+        "Frequency_normalized": 0.9465776293823038,
+        "Monetary_normalized": 0.5357923259879819,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1246",
+        "Customer": "Bella",
+        "No. WA": 6281210637186,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.9465776293823038,
+        "Monetary_normalized": 0.47420346806167346,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1247",
+        "Customer": "Tiara",
+        "No. WA": 6282336550538,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.9432387312186978,
+        "Monetary_normalized": 0.5322226999919081,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1249",
+        "Customer": "Maria",
+        "No. WA": 6282131791636,
+        "Recency_normalized": 0.4283173410313946,
+        "Frequency_normalized": 0.9432387312186978,
+        "Monetary_normalized": 0.5698914307378883,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1250",
+        "Customer": "Nina",
+        "No. WA": 628973909372,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.9432387312186978,
+        "Monetary_normalized": 0.6103625029562765,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1251",
+        "Customer": "Joya",
+        "No. WA": 62895335533134,
+        "Recency_normalized": 0.4884162585319793,
+        "Frequency_normalized": 0.4056761268781302,
+        "Monetary_normalized": 0.6702071956303587,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1253",
+        "Customer": "Berliana",
+        "No. WA": 6281335298819,
+        "Recency_normalized": 0.6274735630753034,
+        "Frequency_normalized": 0.8480801335559266,
+        "Monetary_normalized": 0.7543893988376446,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1254",
+        "Customer": "Dimas",
+        "No. WA": 6285954390246,
+        "Recency_normalized": 0.4283173410313946,
+        "Frequency_normalized": 0.9415692821368948,
+        "Monetary_normalized": 0.5800867603998502,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1255",
+        "Customer": "Resti",
+        "No. WA": 6285333624365,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.9398998330550918,
+        "Monetary_normalized": 0.5357923259879819,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1009",
+        "Customer": "Kumala Sari Dewi",
+        "No. WA": 628123287383,
+        "Recency_normalized": 0.8566346820627893,
+        "Frequency_normalized": 0.00667779632721202,
+        "Monetary_normalized": 1.0,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1256",
+        "Customer": "Laila",
+        "No. WA": 6281234324217,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.9365609348914858,
+        "Monetary_normalized": 0.5357923259879819,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1257",
+        "Customer": "Bastian",
+        "No. WA": 6282142099926,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.9365609348914858,
+        "Monetary_normalized": 0.47420346806167346,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1258",
+        "Customer": "Yeisara",
+        "No. WA": 6285869852420,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.9365609348914858,
+        "Monetary_normalized": 0.5357923259879819,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1259",
+        "Customer": "Ryan Afiva",
+        "No. WA": 6283192291679,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.9348914858096828,
+        "Monetary_normalized": 0.49255048286468234,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1260",
+        "Customer": "Nadilla Atifah",
+        "No. WA": 6289669732956,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.9348914858096828,
+        "Monetary_normalized": 0.5357923259879819,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1262",
+        "Customer": "Zevana",
+        "No. WA": 6285808265410,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.9348914858096828,
+        "Monetary_normalized": 0.5713798426608392,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1261",
+        "Customer": "Lisa",
+        "No. WA": 31629505061,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.9348914858096828,
+        "Monetary_normalized": 0.41295753277861774,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1264",
+        "Customer": "Arista Wahyu",
+        "No. WA": 6283857152521,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.9315525876460768,
+        "Monetary_normalized": 0.46436356883886526,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1265",
+        "Customer": "Fioriza Syahdana",
+        "No. WA": 6281231911481,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.9315525876460768,
+        "Monetary_normalized": 0.37748446036485217,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1266",
+        "Customer": "Erna",
+        "No. WA": 6281331373600,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.9298831385642737,
+        "Monetary_normalized": 0.551117063787694,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1267",
+        "Customer": "Lailly",
+        "No. WA": 6285330687155,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.9298831385642737,
+        "Monetary_normalized": 0.37748446036485217,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1269",
+        "Customer": "Erlina",
+        "No. WA": 6285784065075,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.9298831385642737,
+        "Monetary_normalized": 0.5211183246602908,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1268",
+        "Customer": "Siska",
+        "No. WA": 628553251460,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.9298831385642737,
+        "Monetary_normalized": 0.4402939879419965,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1270",
+        "Customer": "Riana",
+        "No. WA": 6283849037056,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.9298831385642737,
+        "Monetary_normalized": 0.5073398075157054,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1271",
+        "Customer": "Fadila Sonya",
+        "No. WA": 6285606923468,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.9298831385642737,
+        "Monetary_normalized": 0.48128061628678925,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1272",
+        "Customer": "Sonya",
+        "No. WA": 62811310252,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.9298831385642737,
+        "Monetary_normalized": 0.4990219973867768,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1273",
+        "Customer": "Tasha",
+        "No. WA": 6281216262821,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.9282136894824707,
+        "Monetary_normalized": 0.5527500990708233,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1274",
+        "Customer": "Diva",
+        "No. WA": 6281230307506,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.9282136894824707,
+        "Monetary_normalized": 0.5357923259879819,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1275",
+        "Customer": "Zahwa",
+        "No. WA": 6281331102930,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.9282136894824707,
+        "Monetary_normalized": 0.4618267070664152,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1276",
+        "Customer": "Gaby Irma",
+        "No. WA": 6287853114543,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.9131886477462438,
+        "Monetary_normalized": 0.5357923259879819,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1277",
+        "Customer": "Khai",
+        "No. WA": 6281806381116,
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.9115191986644408,
+        "Monetary_normalized": 0.48811781713133084,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1278",
+        "Customer": "Abil",
+        "No. WA": 6281515344600,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.9081803005008348,
+        "Monetary_normalized": 0.5133605048080429,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1279",
+        "Customer": "Shafa Nabila",
+        "No. WA": 6282335364770,
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.8964941569282137,
+        "Monetary_normalized": 0.40634457699832915,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1280",
+        "Customer": "Nabilla Putri",
+        "No. WA": 6281294050459,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.8914858096828047,
+        "Monetary_normalized": 0.37748446036485217,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1282",
+        "Customer": "Ira",
+        "No. WA": 628123252588,
+        "Recency_normalized": 0.5404763088546394,
+        "Frequency_normalized": 0.15525876460767946,
+        "Monetary_normalized": 0.7614459717331364,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1281",
+        "Customer": "Dwi Rakhmatun",
+        "No. WA": 6281336722978,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.8497495826377296,
+        "Monetary_normalized": 0.48586440670313175,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1283",
+        "Customer": "Ilham Rifanto",
+        "No. WA": 6285735614231,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.8464106844741235,
+        "Monetary_normalized": 0.5607226309522745,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1284",
+        "Customer": "Desty Denna",
+        "No. WA": 62895397365236,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.8464106844741235,
+        "Monetary_normalized": 0.48128061628678925,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1285",
+        "Customer": "Dipta",
+        "No. WA": 6281253332192,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.8430717863105175,
+        "Monetary_normalized": 0.42248736282548405,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1286",
+        "Customer": "Nazhry Zahra",
+        "No. WA": 6281217143436,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.8414023372287145,
+        "Monetary_normalized": 0.48128061628678925,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1288",
+        "Customer": "Maria Anastasia",
+        "No. WA": 6281232853058,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.8414023372287145,
+        "Monetary_normalized": 0.46436356883886526,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1152",
+        "Customer": "Pungky Pramita",
+        "No. WA": 6282132384288,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.8414023372287145,
+        "Monetary_normalized": 0.42248736282548405,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1289",
+        "Customer": "Aiko",
+        "No. WA": 6281357610423,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.8414023372287145,
+        "Monetary_normalized": 0.48128061628678925,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1287",
+        "Customer": "Fitri",
+        "No. WA": 62895335492243,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.8414023372287145,
+        "Monetary_normalized": 0.4486404592631069,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1290",
+        "Customer": "Is",
+        "No. WA": 6283123486017,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.8380634390651085,
+        "Monetary_normalized": 0.5357923259879819,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1293",
+        "Customer": "Kimberly",
+        "No. WA": 6281228180888,
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.8363939899833055,
+        "Monetary_normalized": 0.12676627514305586,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1294",
+        "Customer": "Rahel",
+        "No. WA": 6282179719447,
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.8363939899833055,
+        "Monetary_normalized": 0.26655374552683014,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1292",
+        "Customer": "Jessi",
+        "No. WA": 628973971548,
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.8363939899833055,
+        "Monetary_normalized": 0.26655374552683014,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1291",
+        "Customer": "Paskha",
+        "No. WA": 6281337366305,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.8363939899833055,
+        "Monetary_normalized": 0.5133605048080429,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1295",
+        "Customer": "Nena",
+        "No. WA": 62818333392,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.8363939899833055,
+        "Monetary_normalized": 0.40634457699832915,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1296",
+        "Customer": "Fikko",
+        "No. WA": 6282144303344,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.8313856427378965,
+        "Monetary_normalized": 0.42248736282548405,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1081",
+        "Customer": "Rina Widowati",
+        "No. WA": 6281235042671,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.01001669449081803,
+        "Monetary_normalized": 0.551117063787694,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1297",
+        "Customer": "Roif",
+        "No. WA": 6287852363118,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.8313856427378965,
+        "Monetary_normalized": 0.48128061628678925,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1298",
+        "Customer": "Chika",
+        "No. WA": 6282229161945,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.8313856427378965,
+        "Monetary_normalized": 0.44311469920662044,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1300",
+        "Customer": "Irafani Dyah",
+        "No. WA": 6281295426007,
+        "Recency_normalized": 0.4283173410313946,
+        "Frequency_normalized": 0.8297161936560935,
+        "Monetary_normalized": 0.5032237803575774,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1301",
+        "Customer": "Dessy",
+        "No. WA": 6285156113163,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.8297161936560935,
+        "Monetary_normalized": 0.5172767138855932,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1302",
+        "Customer": "Rosalina Dinda",
+        "No. WA": 6282334119029,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.8297161936560935,
+        "Monetary_normalized": 0.41295753277861774,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1303",
+        "Customer": "Cicha",
+        "No. WA": 6287743280465,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.8263772954924875,
+        "Monetary_normalized": 0.3483258652599123,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1304",
+        "Customer": "Elifia Firfara",
+        "No. WA": 6282140327616,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.8263772954924875,
+        "Monetary_normalized": 0.48586440670313175,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1305",
+        "Customer": "Aisyah Vania",
+        "No. WA": 6287750279114,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.8263772954924875,
+        "Monetary_normalized": 0.4618267070664152,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1306",
+        "Customer": "Karina",
+        "No. WA": 6289512944500,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.8263772954924875,
+        "Monetary_normalized": 0.37748446036485217,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1307",
+        "Customer": "Dhilla",
+        "No. WA": 6289698784237,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.8247078464106845,
+        "Monetary_normalized": 0.5357923259879819,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1308",
+        "Customer": "Connie",
+        "No. WA": 6282288294050,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.8247078464106845,
+        "Monetary_normalized": 0.5357923259879819,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1309",
+        "Customer": "Cia",
+        "No. WA": 6282173913481,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.8247078464106845,
+        "Monetary_normalized": 0.5267469275270009,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1310",
+        "Customer": "Arel",
+        "No. WA": 6281332658638,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.8247078464106845,
+        "Monetary_normalized": 0.5713798426608392,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1311",
+        "Customer": "Rachel dr",
+        "No. WA": 62895620046151,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.8230383973288815,
+        "Monetary_normalized": 0.47420346806167346,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1313",
+        "Customer": "Aulia Nur F",
+        "No. WA": 6285790424924,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.8196994991652755,
+        "Monetary_normalized": 0.48128061628678925,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1314",
+        "Customer": "Joey",
+        "No. WA": 628113222942,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.8196994991652755,
+        "Monetary_normalized": 0.4374332658237524,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1315",
+        "Customer": "Hani",
+        "No. WA": 6282231388386,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.8196994991652755,
+        "Monetary_normalized": 0.5591531380579133,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1316",
+        "Customer": "Neysa",
+        "No. WA": "+97433694688",
+        "Recency_normalized": 0.4283173410313946,
+        "Frequency_normalized": 0.8180300500834724,
+        "Monetary_normalized": 0.5607226309522745,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1317",
+        "Customer": "Nauli Khalila",
+        "No. WA": 6283849915375,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.8180300500834724,
+        "Monetary_normalized": 0.5444493913544772,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1318",
+        "Customer": "Dinda",
+        "No. WA": 628113052511,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.8180300500834724,
+        "Monetary_normalized": 0.40634457699832915,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1319",
+        "Customer": "Cinday",
+        "No. WA": 62881027833054,
+        "Recency_normalized": 0.5404763088546394,
+        "Frequency_normalized": 0.8146911519198664,
+        "Monetary_normalized": 0.713385524340736,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1320",
+        "Customer": "Sani",
+        "No. WA": 6287758308117,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.8146911519198664,
+        "Monetary_normalized": 0.3959999023636428,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1323",
+        "Customer": "Lorenza",
+        "No. WA": 6285733620954,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.8130217028380634,
+        "Monetary_normalized": 0.4693435230542967,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1321",
+        "Customer": "Anita Dwi",
+        "No. WA": 6285895056724,
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.8130217028380634,
+        "Monetary_normalized": 0.04499863669845643,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1322",
+        "Customer": "Angel",
+        "No. WA": 6282117588485,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.8130217028380634,
+        "Monetary_normalized": 0.4765902178324861,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1324",
+        "Customer": "Izzah Putri",
+        "No. WA": 6285156142808,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.8130217028380634,
+        "Monetary_normalized": 0.3959999023636428,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1326",
+        "Customer": "Arina Tanisya",
+        "No. WA": 62881026910400,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.8130217028380634,
+        "Monetary_normalized": 0.5322226999919081,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1325",
+        "Customer": "Lydia ",
+        "No. WA": 6285230003535,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.6343906510851419,
+        "Monetary_normalized": 0.574324112709299,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1327",
+        "Customer": "Tasya N",
+        "No. WA": 628113070207,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.8130217028380634,
+        "Monetary_normalized": 0.5410310268178585,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1328",
+        "Customer": "Emy",
+        "No. WA": 6281553597353,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.8113522537562604,
+        "Monetary_normalized": 0.57722601799226,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1330",
+        "Customer": "Nabila Mahfud",
+        "No. WA": 6289614144447,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.8113522537562604,
+        "Monetary_normalized": 0.5410310268178585,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1332",
+        "Customer": "Risma",
+        "No. WA": 6282328782226,
+        "Recency_normalized": 0.4283173410313946,
+        "Frequency_normalized": 0.8113522537562604,
+        "Monetary_normalized": 0.5924804961396287,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1333",
+        "Customer": "Insi",
+        "No. WA": 6282140620258,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.8113522537562604,
+        "Monetary_normalized": 0.4566551980045195,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1334",
+        "Customer": "Nia",
+        "No. WA": 6281333210523,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.8080133555926544,
+        "Monetary_normalized": 0.5897914023803847,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1335",
+        "Customer": "Rita",
+        "No. WA": 6283134310528,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.8080133555926544,
+        "Monetary_normalized": 0.44311469920662044,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1336",
+        "Customer": "Sashi Ramadhani",
+        "No. WA": 6281515317667,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.8080133555926544,
+        "Monetary_normalized": 0.5357923259879819,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1337",
+        "Customer": "ila",
+        "No. WA": 6281515310380,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.8063439065108514,
+        "Monetary_normalized": 0.5052922940810002,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1338",
+        "Customer": "miranda agustini",
+        "No. WA": 6289516500141,
+        "Recency_normalized": 0.4283173410313946,
+        "Frequency_normalized": 0.8063439065108514,
+        "Monetary_normalized": 0.601619623347655,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1339",
+        "Customer": "Ocha",
+        "No. WA": 6281252613030,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.8063439065108514,
+        "Monetary_normalized": 0.43453138141822745,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1340",
+        "Customer": "Sabitha",
+        "No. WA": 6281217689835,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.8063439065108514,
+        "Monetary_normalized": 0.5575713353861945,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1341",
+        "Customer": "Adelya",
+        "No. WA": 62816525450,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.8030050083472454,
+        "Monetary_normalized": 0.5267469275270009,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1342",
+        "Customer": "Dhifa",
+        "No. WA": 6282329427657,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.8030050083472454,
+        "Monetary_normalized": 0.5357923259879819,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1343",
+        "Customer": "Ervina",
+        "No. WA": 628993940656,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.8030050083472454,
+        "Monetary_normalized": 0.38509580073376015,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1344",
+        "Customer": "Laura",
+        "No. WA": 6285731100798,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.8030050083472454,
+        "Monetary_normalized": 0.5575713353861945,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1345",
+        "Customer": "Jihan",
+        "No. WA": 6281333578586,
+        "Recency_normalized": 0.4283173410313946,
+        "Frequency_normalized": 0.8013355592654424,
+        "Monetary_normalized": 0.5230120333612674,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1346",
+        "Customer": "Anisa Setyo",
+        "No. WA": 6281235370458,
+        "Recency_normalized": 0.4283173410313946,
+        "Frequency_normalized": 0.8013355592654424,
+        "Monetary_normalized": 0.5964480811316397,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1347",
+        "Customer": "Ericha",
+        "No. WA": 6281358017509,
+        "Recency_normalized": 0.4884162585319793,
+        "Frequency_normalized": 0.8013355592654424,
+        "Monetary_normalized": 0.6151933729836162,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1350",
+        "Customer": "Maya",
+        "No. WA": 6285233117123,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.7996661101836394,
+        "Monetary_normalized": 0.5357923259879819,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1348",
+        "Customer": "Gadis",
+        "No. WA": 6285157059955,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.7996661101836394,
+        "Monetary_normalized": 0.42859926486938843,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1349",
+        "Customer": "Ramadhan",
+        "No. WA": 6282131447482,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.7996661101836394,
+        "Monetary_normalized": 0.5133605048080429,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1351",
+        "Customer": "Hafidha",
+        "No. WA": 6281231301415,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.7996661101836394,
+        "Monetary_normalized": 0.5357923259879819,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1352",
+        "Customer": "Erike",
+        "No. WA": 6282233533398,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.7896494156928213,
+        "Monetary_normalized": 0.48128061628678925,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1353",
+        "Customer": "Atika",
+        "No. WA": 62895631515610,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.7896494156928213,
+        "Monetary_normalized": 0.47420346806167346,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1354",
+        "Customer": "Levina",
+        "No. WA": 6281330165207,
+        "Recency_normalized": 0.4283173410313946,
+        "Frequency_normalized": 0.7896494156928213,
+        "Monetary_normalized": 0.5638254434935577,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1355",
+        "Customer": "Juan N",
+        "No. WA": 6281217984050,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.7879799666110183,
+        "Monetary_normalized": 0.48128061628678925,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1356",
+        "Customer": "Andin Ardiana",
+        "No. WA": 6285936158774,
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.7879799666110183,
+        "Monetary_normalized": 0.29764195418314593,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1357",
+        "Customer": "Unga",
+        "No. WA": 6281317988864,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.7846410684474123,
+        "Monetary_normalized": 0.38509580073376015,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1358",
+        "Customer": "Ive",
+        "No. WA": 6287870007637,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.7846410684474123,
+        "Monetary_normalized": 0.5357923259879819,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1359",
+        "Customer": "Rita",
+        "No. WA": 6283134310528,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.7846410684474123,
+        "Monetary_normalized": 0.37748446036485217,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1360",
+        "Customer": "Adhita",
+        "No. WA": 6281515033450,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.7846410684474123,
+        "Monetary_normalized": 0.5444493913544772,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1361",
+        "Customer": "Aqil",
+        "No. WA": 6289678824408,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.7829716193656093,
+        "Monetary_normalized": 0.5267469275270009,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1362",
+        "Customer": "Zahra",
+        "No. WA": 6281378273191,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.7829716193656093,
+        "Monetary_normalized": 0.5357923259879819,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1363",
+        "Customer": "Heling",
+        "No. WA": 6281217446326,
+        "Recency_normalized": 0.4884162585319793,
+        "Frequency_normalized": 0.7829716193656093,
+        "Monetary_normalized": 0.601619623347655,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1364",
+        "Customer": "Athyra Elmilla",
+        "No. WA": 6281225796680,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.7829716193656093,
+        "Monetary_normalized": 0.5357923259879819,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1103",
+        "Customer": "Putri Dwitasari",
+        "No. WA": 6281803224141,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.7829716193656093,
+        "Monetary_normalized": 0.4618267070664152,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1365",
+        "Customer": "Putri Dewi",
+        "No. WA": 6285706540525,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.7829716193656093,
+        "Monetary_normalized": 0.37748446036485217,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1366",
+        "Customer": "Ananda Suci",
+        "No. WA": 6285730866112,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.7796327212020033,
+        "Monetary_normalized": 0.5073398075157054,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1367",
+        "Customer": "Annisa Husna",
+        "No. WA": 6281355668707,
+        "Recency_normalized": 0.9522008800151638,
+        "Frequency_normalized": 0.1285475792988314,
+        "Monetary_normalized": 0.9452006200011706,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1369",
+        "Customer": "Lathifa Malia",
+        "No. WA": 6289528559696,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.7762938230383973,
+        "Monetary_normalized": 0.5856893147722697,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1368",
+        "Customer": "Lintang Kirana",
+        "No. WA": 6282143031159,
+        "Recency_normalized": 0.4283173410313946,
+        "Frequency_normalized": 0.7779632721202003,
+        "Monetary_normalized": 0.5683919525359866,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1370",
+        "Customer": "Desy",
+        "No. WA": 6281259502529,
+        "Recency_normalized": 0.5404763088546394,
+        "Frequency_normalized": 0.15692821368948248,
+        "Monetary_normalized": 0.8040077181380448,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1372",
+        "Customer": "Evi Erika Puspitasari",
+        "No. WA": 6282232276288,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.7729549248747913,
+        "Monetary_normalized": 0.5607226309522745,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1373",
+        "Customer": "Aula",
+        "No. WA": 6281917101151,
+        "Recency_normalized": 0.4283173410313946,
+        "Frequency_normalized": 0.7729549248747913,
+        "Monetary_normalized": 0.5494706975656584,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1087",
+        "Customer": "Aulia Widya",
+        "No. WA": 628155100624,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.7729549248747913,
+        "Monetary_normalized": 0.6900889301802171,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1374",
+        "Customer": "Salwa Ridha Kamilah",
+        "No. WA": 6287855188277,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.7712854757929883,
+        "Monetary_normalized": 0.37748446036485217,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1375",
+        "Customer": "diva rizky nur rahmah",
+        "No. WA": 6287784580673,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.7712854757929883,
+        "Monetary_normalized": 0.4618267070664152,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1376",
+        "Customer": "Adinda Kurnia Dewi",
+        "No. WA": 6281259489705,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.7712854757929883,
+        "Monetary_normalized": 0.5357923259879819,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1377",
+        "Customer": "Resti",
+        "No. WA": 6285730281299,
+        "Recency_normalized": 0.4884162585319793,
+        "Frequency_normalized": 0.7662771285475793,
+        "Monetary_normalized": 0.6066618641744793,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1378",
+        "Customer": "Lutfi Bunga",
+        "No. WA": 6285171150312,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.7662771285475793,
+        "Monetary_normalized": 0.5248881260759679,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1379",
+        "Customer": "Alia",
+        "No. WA": 6281334273200,
+        "Recency_normalized": 0.4884162585319793,
+        "Frequency_normalized": 0.7662771285475793,
+        "Monetary_normalized": 0.6079029705372412,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1380",
+        "Customer": "Netta Fitri ",
+        "No. WA": 6281358720877,
+        "Recency_normalized": 0.4884162585319793,
+        "Frequency_normalized": 0.7646076794657763,
+        "Monetary_normalized": 0.5607226309522745,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1381",
+        "Customer": "Abigail",
+        "No. WA": 6282193146902,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.7612687813021702,
+        "Monetary_normalized": 0.4968878160492144,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1382",
+        "Customer": "Fengki Gofar",
+        "No. WA": 6282152705771,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.7612687813021702,
+        "Monetary_normalized": 0.4968878160492144,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1383",
+        "Customer": "Agita ",
+        "No. WA": 6283856055005,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.7595993322203672,
+        "Monetary_normalized": 0.519206666016426,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1384",
+        "Customer": "Lidia",
+        "No. WA": 6281235164739,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.7545909849749582,
+        "Monetary_normalized": 0.3959999023636428,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1385",
+        "Customer": "tatu indira",
+        "No. WA": 6281290479319,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.7529215358931552,
+        "Monetary_normalized": 0.48128061628678925,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1386",
+        "Customer": "Nora Aurora",
+        "No. WA": 6281325550801,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.7529215358931552,
+        "Monetary_normalized": 0.49255048286468234,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1387",
+        "Customer": "Firza Rachmalia",
+        "No. WA": 6285939433566,
+        "Recency_normalized": 0.4884162585319793,
+        "Frequency_normalized": 0.7529215358931552,
+        "Monetary_normalized": 0.6175660968475978,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1388",
+        "Customer": "ayu nikmatul sak diah",
+        "No. WA": 6285784424136,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.7529215358931552,
+        "Monetary_normalized": 0.5444493913544772,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1389",
+        "Customer": "Andira",
+        "No. WA": 6289605255140,
+        "Recency_normalized": 0.4884162585319793,
+        "Frequency_normalized": 0.7312186978297162,
+        "Monetary_normalized": 0.6175660968475978,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1390",
+        "Customer": "Afa",
+        "No. WA": 6282142086835,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.7479131886477463,
+        "Monetary_normalized": 0.5172767138855932,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1391",
+        "Customer": "Frq",
+        "No. WA": 6281334501506,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.7479131886477463,
+        "Monetary_normalized": 0.4161844362063262,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1392",
+        "Customer": "Fania",
+        "No. WA": 6281238027342,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.7479131886477463,
+        "Monetary_normalized": 0.47420346806167346,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1393",
+        "Customer": "Ghefira Aisyatul ",
+        "No. WA": 6285231396546,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.7445742904841403,
+        "Monetary_normalized": 0.5172767138855932,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1396",
+        "Customer": "Anditya",
+        "No. WA": 6282132962363,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.7378964941569283,
+        "Monetary_normalized": 0.4765902178324861,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1397",
+        "Customer": "Aya",
+        "No. WA": "\u202a6285162986656\u202c",
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.7362270450751253,
+        "Monetary_normalized": 0.36957456683093215,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1398",
+        "Customer": "Niki",
+        "No. WA": 6281340825121,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.7362270450751253,
+        "Monetary_normalized": 0.4765902178324861,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1399",
+        "Customer": "nurul indhana zulva",
+        "No. WA": 6285860985642,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.7312186978297162,
+        "Monetary_normalized": 0.5267469275270009,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1400",
+        "Customer": "Nanda",
+        "No. WA": 6281556483321,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.7312186978297162,
+        "Monetary_normalized": 0.4968878160492144,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1401",
+        "Customer": "Angel Yosefin",
+        "No. WA": 6285648515865,
+        "Recency_normalized": 0.4283173410313946,
+        "Frequency_normalized": 0.7295492487479132,
+        "Monetary_normalized": 0.551117063787694,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1402",
+        "Customer": "Fira",
+        "No. WA": 6282333503361,
+        "Recency_normalized": 0.4283173410313946,
+        "Frequency_normalized": 0.7295492487479132,
+        "Monetary_normalized": 0.5815020572486346,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1403",
+        "Customer": "Ismi",
+        "No. WA": 6289643509095,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.7295492487479132,
+        "Monetary_normalized": 0.5322226999919081,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1404",
+        "Customer": "Kala",
+        "No. WA": 62895413966366,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.7295492487479132,
+        "Monetary_normalized": 0.37748446036485217,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1405",
+        "Customer": "Dina",
+        "No. WA": 6287856664544,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.7195325542570952,
+        "Monetary_normalized": 0.5591531380579133,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1406",
+        "Customer": "Lica",
+        "No. WA": 6281391314516,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.7095158597662772,
+        "Monetary_normalized": 0.5322226999919081,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1407",
+        "Customer": "Triyas",
+        "No. WA": 6289681185855,
+        "Recency_normalized": 0.4884162585319793,
+        "Frequency_normalized": 0.7078464106844741,
+        "Monetary_normalized": 0.6066618641744793,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1408",
+        "Customer": "Wican",
+        "No. WA": 6285700924559,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.7061769616026711,
+        "Monetary_normalized": 0.5410310268178585,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1409",
+        "Customer": "Arma",
+        "No. WA": 6282143237996,
+        "Recency_normalized": 0.4884162585319793,
+        "Frequency_normalized": 0.6978297161936561,
+        "Monetary_normalized": 0.7081853927287125,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1118",
+        "Customer": "Putri Maharani",
+        "No. WA": 628123038477,
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.6894824707846411,
+        "Monetary_normalized": 0.5911404310862589,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1411",
+        "Customer": "Hikmah Altway",
+        "No. WA": 6287852513664,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.6894824707846411,
+        "Monetary_normalized": 0.627910889421342,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1010",
+        "Customer": "Ratih",
+        "No. WA": 6281252391980,
+        "Recency_normalized": 0.7855527496793783,
+        "Frequency_normalized": 0.2270450751252087,
+        "Monetary_normalized": 0.9111073972479663,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1415",
+        "Customer": "Nadifa S.",
+        "No. WA": 6281217859167,
+        "Recency_normalized": 0.4283173410313946,
+        "Frequency_normalized": 0.6861435726210351,
+        "Monetary_normalized": 0.6867690270899892,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1023",
+        "Customer": "Nysa",
+        "No. WA": 6281330970097,
+        "Recency_normalized": 0.4884162585319793,
+        "Frequency_normalized": 0.39398998330550916,
+        "Monetary_normalized": 0.6139964603211656,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1414",
+        "Customer": "Isna",
+        "No. WA": 6285235317842,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.18196994991652754,
+        "Monetary_normalized": 0.5461370890767098,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1416",
+        "Customer": "Dwiputra Rachman",
+        "No. WA": 6283849800092,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.679465776293823,
+        "Monetary_normalized": 0.5052922940810002,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1421",
+        "Customer": "Irna",
+        "No. WA": 6282230883108,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.672787979966611,
+        "Monetary_normalized": 0.6859304414742867,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1422",
+        "Customer": "Charina",
+        "No. WA": 6289522504242,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.671118530884808,
+        "Monetary_normalized": 0.4486404592631069,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1426",
+        "Customer": "Eka",
+        "No. WA": 6285648565539,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.6494156928213689,
+        "Monetary_normalized": 0.4618267070664152,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1427",
+        "Customer": "Tary",
+        "No. WA": 6287757578555,
+        "Recency_normalized": 0.4283173410313946,
+        "Frequency_normalized": 0.6026711185308848,
+        "Monetary_normalized": 0.6551213284690969,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1428",
+        "Customer": "Ainun J",
+        "No. WA": 6282234701153,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.6444073455759599,
+        "Monetary_normalized": 0.49255048286468234,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1430",
+        "Customer": "Eva",
+        "No. WA": 62811322329,
+        "Recency_normalized": 0.4283173410313946,
+        "Frequency_normalized": 0.6343906510851419,
+        "Monetary_normalized": 0.6323435795118267,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1431",
+        "Customer": "Adenia",
+        "No. WA": 62881026794699,
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.6327212020033389,
+        "Monetary_normalized": 0.3924303079582696,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1060",
+        "Customer": "Saski",
+        "No. WA": 6282141016689,
+        "Recency_normalized": 0.5404763088546394,
+        "Frequency_normalized": 0.4023372287145242,
+        "Monetary_normalized": 0.771038148784375,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1432",
+        "Customer": "Mita Andarwati",
+        "No. WA": 6281331636374,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.6227045075125208,
+        "Monetary_normalized": 0.5153281147657033,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1434",
+        "Customer": "Claire",
+        "No. WA": 6282165889168,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.6043405676126878,
+        "Monetary_normalized": 0.36957456683093215,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1435",
+        "Customer": "Azizahmahaputri",
+        "No. WA": "6281231177447",
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.6010016694490818,
+        "Monetary_normalized": 0.4374332658237524,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1092",
+        "Customer": "Siska Rizky",
+        "No. WA": "6281231177447",
+        "Recency_normalized": 1.0,
+        "Frequency_normalized": 0.0,
+        "Monetary_normalized": 0.9663567849101076,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1436",
+        "Customer": "Rayhan",
+        "No. WA": "6281231177447",
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.6010016694490818,
+        "Monetary_normalized": 0.5427474514092294,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1437",
+        "Customer": "Lucky",
+        "No. WA": "6281231177447",
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.44240400667779634,
+        "Monetary_normalized": 0.5153281147657033,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1438",
+        "Customer": "Ully",
+        "No. WA": "6281231177447",
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.5993322203672788,
+        "Monetary_normalized": 0.5527500990708233,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1439",
+        "Customer": "Ananda",
+        "No. WA": "6281231177447",
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.5976627712854758,
+        "Monetary_normalized": 0.4835855337591181,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1440",
+        "Customer": "Fitri Yulianti",
+        "No. WA": "6281231177447",
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.5943238731218697,
+        "Monetary_normalized": 0.4374332658237524,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1441",
+        "Customer": "Volare (YoungLiving)",
+        "No. WA": "6281931001233",
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.5909849749582637,
+        "Monetary_normalized": 0.5285887535402954,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1044",
+        "Customer": "Yetty",
+        "No. WA": "628179332765",
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.5859766277128547,
+        "Monetary_normalized": 0.4374332658237524,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1442",
+        "Customer": "ayu",
+        "No. WA": "6281231177447",
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.5709515859766278,
+        "Monetary_normalized": 0.42556646552662225,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1444",
+        "Customer": "Fara",
+        "No. WA": "6281231177447",
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.5676126878130217,
+        "Monetary_normalized": 0.26655374552683014,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1445",
+        "Customer": "Selly",
+        "No. WA": "6281231177447",
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.5626043405676127,
+        "Monetary_normalized": 0.3924303079582696,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1100",
+        "Customer": "Imawati Prayoga",
+        "No. WA": "6281231177447",
+        "Recency_normalized": 0.4283173410313946,
+        "Frequency_normalized": 0.2270450751252087,
+        "Monetary_normalized": 0.6589998983677604,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1446",
+        "Customer": "Annisa Fardianti",
+        "No. WA": "6281231177447",
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.5358931552587646,
+        "Monetary_normalized": 0.5133605048080429,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1447",
+        "Customer": "Wayuni Indah Yuyun",
+        "No. WA": "6281231177447",
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.5308848080133556,
+        "Monetary_normalized": 0.5977534519232441,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1054",
+        "Customer": "Gamalia",
+        "No. WA": "6281231177447",
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.5308848080133556,
+        "Monetary_normalized": 0.5285887535402954,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1448",
+        "Customer": "Chichi",
+        "No. WA": "6281231177447",
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.5308848080133556,
+        "Monetary_normalized": 0.5093667427845753,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1449",
+        "Customer": "Opie Fidyah",
+        "No. WA": "6281231177447",
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.5225375626043406,
+        "Monetary_normalized": 0.5461370890767098,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1450",
+        "Customer": "Caca",
+        "No. WA": "6281231177447",
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.5225375626043406,
+        "Monetary_normalized": 0.6066618641744793,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1451",
+        "Customer": "Yenny Wulandari",
+        "No. WA": "6281231177447",
+        "Recency_normalized": 0.9167335995633739,
+        "Frequency_normalized": 0.008347245409015025,
+        "Monetary_normalized": 0.9964271836250526,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1452",
+        "Customer": "Julya Fanny",
+        "No. WA": "6281231177447",
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.5108514190317195,
+        "Monetary_normalized": 0.5461370890767098,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1454",
+        "Customer": "Fia",
+        "No. WA": "6281231177447",
+        "Recency_normalized": 0.4884162585319793,
+        "Frequency_normalized": 0.5091819699499165,
+        "Monetary_normalized": 0.5829074913902329,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1463",
+        "Customer": "Isla",
+        "No. WA": "6281225793263",
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.4941569282136895,
+        "Monetary_normalized": 0.5543700175684372,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1462",
+        "Customer": "Celia",
+        "No. WA": "6285330851664",
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.48580968280467446,
+        "Monetary_normalized": 0.42248736282548405,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1460",
+        "Customer": "Xera",
+        "No. WA": "6285330851664",
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.48580968280467446,
+        "Monetary_normalized": 0.3995074147887859,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1459",
+        "Customer": "Echa",
+        "No. WA": "6285330851664",
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.48414023372287146,
+        "Monetary_normalized": 0.48811781713133084,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1458",
+        "Customer": "Melva",
+        "No. WA": "6285330851664",
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.44908180300500833,
+        "Monetary_normalized": 0.36957456683093215,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1464",
+        "Customer": "Lailatul Fitriyah",
+        "No. WA": "6285330851664",
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.48247078464106846,
+        "Monetary_normalized": 0.25263971657003836,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1482",
+        "Customer": "Laela Putri",
+        "No. WA": "62882003333296",
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.4774624373956594,
+        "Monetary_normalized": 0.29764195418314593,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1483",
+        "Customer": "Zahra Putri Pratiwig",
+        "No. WA": "62882003333296",
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.4774624373956594,
+        "Monetary_normalized": 0.25263971657003836,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1484",
+        "Customer": "Daffa Amelia Yasa",
+        "No. WA": "62882003333296",
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.44240400667779634,
+        "Monetary_normalized": 0.42556646552662225,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1465",
+        "Customer": "Annisa Dewi",
+        "No. WA": "6282225864999",
+        "Recency_normalized": 0.4283173410313946,
+        "Frequency_normalized": 0.4724540901502504,
+        "Monetary_normalized": 0.5638254434935577,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1466",
+        "Customer": "David",
+        "No. WA": "6282225864999",
+        "Recency_normalized": 0.4283173410313946,
+        "Frequency_normalized": 0.4724540901502504,
+        "Monetary_normalized": 0.5843031993334048,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1467",
+        "Customer": "Naya",
+        "No. WA": "6282225864999",
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.4707846410684474,
+        "Monetary_normalized": 0.26655374552683014,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1468",
+        "Customer": "Shinta",
+        "No. WA": "6282225864999",
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.4657762938230384,
+        "Monetary_normalized": 0.40634457699832915,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1469",
+        "Customer": "Arel",
+        "No. WA": "6282225864999",
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.46410684474123537,
+        "Monetary_normalized": 0.20400402357703662,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1470",
+        "Customer": "Rosita Trisna",
+        "No. WA": "6282225864999",
+        "Recency_normalized": 0.4884162585319793,
+        "Frequency_normalized": NaN,
+        "Monetary_normalized": 0.5924804961396287,
+        "Cluster": 0
+    },
+    {
+        "No. Cust": "A1479",
+        "Customer": "Hilmy Hidayana",
+        "No. WA": "6282225864999",
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.4540901502504174,
+        "Monetary_normalized": 0.47420346806167346,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1472",
+        "Customer": "Athalla",
+        "No. WA": "6282225864999",
+        "Recency_normalized": 0.5863965276354697,
+        "Frequency_normalized": 0.44908180300500833,
+        "Monetary_normalized": 0.7531889203624745,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1473",
+        "Customer": "Khai",
+        "No. WA": "6282225864999",
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.4590984974958264,
+        "Monetary_normalized": 0.4374332658237524,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1474",
+        "Customer": "Azarine",
+        "No. WA": "6282225864999",
+        "Recency_normalized": 0.5404763088546394,
+        "Frequency_normalized": 0.4574290484140234,
+        "Monetary_normalized": 0.6842427366905047,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1475",
+        "Customer": "Nafilah Sofie",
+        "No. WA": "6282225864999",
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.4574290484140234,
+        "Monetary_normalized": 0.47420346806167346,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1478",
+        "Customer": "Nisa",
+        "No. WA": "6282225864999",
+        "Recency_normalized": 0.4884162585319793,
+        "Frequency_normalized": 0.4540901502504174,
+        "Monetary_normalized": 0.6949685127658941,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1481",
+        "Customer": "Afidati Lelani",
+        "No. WA": "6282225864999",
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.4524207011686144,
+        "Monetary_normalized": 0.22978440759042207,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1480",
+        "Customer": "Salma",
+        "No. WA": "6282225864999",
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.4507512520868113,
+        "Monetary_normalized": 0.38879639424609513,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1477",
+        "Customer": "Neya",
+        "No. WA": "6282225864999",
+        "Recency_normalized": 0.4283173410313946,
+        "Frequency_normalized": 0.4507512520868113,
+        "Monetary_normalized": 0.5911404310862589,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1485",
+        "Customer": "Bella",
+        "No. WA": 6281230264900,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.44240400667779634,
+        "Monetary_normalized": 0.40634457699832915,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1486",
+        "Customer": "Melisa",
+        "No. WA": 6285942966731,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.44240400667779634,
+        "Monetary_normalized": 0.40634457699832915,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1487",
+        "Customer": "Patrice",
+        "No. WA": 6283857502894,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.44240400667779634,
+        "Monetary_normalized": 0.381326034551265,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1471",
+        "Customer": "Hilmy",
+        "No. WA": 6289685683901,
+        "Recency_normalized": 0.4884162585319793,
+        "Frequency_normalized": 0.17195325542570952,
+        "Monetary_normalized": 0.6366809360170268,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1488",
+        "Customer": "Reisya Fadhilah",
+        "No. WA": 6281347197036,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.44240400667779634,
+        "Monetary_normalized": 0.40634457699832915,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1490",
+        "Customer": "Rio",
+        "No. WA": 6281224643946,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.43906510851419034,
+        "Monetary_normalized": 0.4765902178324861,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1494",
+        "Customer": "Reyna dwi chalisya",
+        "No. WA": "081559996649",
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.4290484140233723,
+        "Monetary_normalized": 0.5543700175684372,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1496",
+        "Customer": "Intan",
+        "No. WA": 6285716649391,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.4257095158597663,
+        "Monetary_normalized": 0.5698914307378883,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1497",
+        "Customer": "Monica",
+        "No. WA": "087853175549",
+        "Recency_normalized": 0.4884162585319793,
+        "Frequency_normalized": 0.4257095158597663,
+        "Monetary_normalized": 0.5990504280433142,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1499",
+        "Customer": "Dio",
+        "No. WA": 6285704781534,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.4240400667779633,
+        "Monetary_normalized": 0.46436356883886526,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1047",
+        "Customer": "Linda Purnama",
+        "No. WA": 628123213112,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.41736227045075125,
+        "Monetary_normalized": 0.38879639424609513,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1501",
+        "Customer": "nikee",
+        "No. WA": 6282187787123,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.41736227045075125,
+        "Monetary_normalized": 0.44311469920662044,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1503",
+        "Customer": "Helen",
+        "No. WA": 6282157105273,
+        "Recency_normalized": 0.4884162585319793,
+        "Frequency_normalized": 0.3606010016694491,
+        "Monetary_normalized": 0.7247909475389157,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1505",
+        "Customer": "Sarah",
+        "No. WA": 6282142619780,
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.41569282136894825,
+        "Monetary_normalized": 0.25263971657003836,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1506",
+        "Customer": "Vira Rezalia",
+        "No. WA": 6281553685088,
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.41569282136894825,
+        "Monetary_normalized": 0.26655374552683014,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1507",
+        "Customer": "Anggra Ayu Rucitra",
+        "No. WA": 6281233889028,
+        "Recency_normalized": 0.4884162585319793,
+        "Frequency_normalized": 0.41569282136894825,
+        "Monetary_normalized": 0.5843031993334048,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1508",
+        "Customer": "Adelnia",
+        "No. WA": 6285806886044,
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.41402337228714525,
+        "Monetary_normalized": 0.22978440759042207,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1509",
+        "Customer": "Vira Aulia",
+        "No. WA": 6282231773104,
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.41402337228714525,
+        "Monetary_normalized": 0.26655374552683014,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1514",
+        "Customer": "Ratri",
+        "No. WA": 6285731500097,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.4056761268781302,
+        "Monetary_normalized": 0.5622800041830576,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1515",
+        "Customer": "Ikeshia Grace Halim",
+        "No. WA": "081248708888",
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.4040066777963272,
+        "Monetary_normalized": 0.19462228526377548,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1517",
+        "Customer": "Tika",
+        "No. WA": 6283834611377,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.4023372287145242,
+        "Monetary_normalized": 0.5977534519232441,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1518",
+        "Customer": "Rizki Annisa Kiki",
+        "No. WA": 6285258141588,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.4023372287145242,
+        "Monetary_normalized": 0.3437936328153738,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1520",
+        "Customer": "Martina Dwi Raviningtias",
+        "No. WA": 6289682540960,
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.39565943238731216,
+        "Monetary_normalized": 0.12676627514305586,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1521",
+        "Customer": "Fannela",
+        "No. WA": 6282199670307,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.39565943238731216,
+        "Monetary_normalized": 0.22978440759042207,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1512",
+        "Customer": "Anggia Ditya",
+        "No. WA": 62811348146,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.38731218697829717,
+        "Monetary_normalized": 0.6103625029562765,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1527",
+        "Customer": "Vyra",
+        "No. WA": 6281553006438,
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.38397328881469117,
+        "Monetary_normalized": 0.26655374552683014,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1529",
+        "Customer": "Nevia",
+        "No. WA": 6285331760130,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.38397328881469117,
+        "Monetary_normalized": 0.5172767138855932,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1531",
+        "Customer": "fahmi",
+        "No. WA": "0895806729962",
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.3823038397328882,
+        "Monetary_normalized": 0.25263971657003836,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1540",
+        "Customer": "Laisya Kezia",
+        "No. WA": 6281286052881,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.3789649415692821,
+        "Monetary_normalized": 0.45134758288146026,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1545",
+        "Customer": "Felicia",
+        "No. WA": 6285257416850,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.3756260434056761,
+        "Monetary_normalized": 0.5032237803575774,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1551",
+        "Customer": "Wanda Aulia",
+        "No. WA": 6285945896944,
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.37061769616026713,
+        "Monetary_normalized": 0.3483258652599123,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1553",
+        "Customer": "Nathalia",
+        "No. WA": 62895610531127,
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.36894824707846413,
+        "Monetary_normalized": 0.12676627514305586,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1552",
+        "Customer": "Nindy Adhilah",
+        "No. WA": 628123024934,
+        "Recency_normalized": 0.4283173410313946,
+        "Frequency_normalized": 0.3656093489148581,
+        "Monetary_normalized": 0.7051525591802822,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1554",
+        "Customer": "Fery Rahmatullah",
+        "No. WA": 62895804112929,
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.3656093489148581,
+        "Monetary_normalized": 0.29764195418314593,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1556",
+        "Customer": "Talitha Annora",
+        "No. WA": 6282111565153,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.3639398998330551,
+        "Monetary_normalized": 0.3959999023636428,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1558",
+        "Customer": "Diana S",
+        "No. WA": 6287852624603,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.3622704507512521,
+        "Monetary_normalized": 0.40634457699832915,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1560",
+        "Customer": "Nabilah Hanin",
+        "No. WA": 62895393126823,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.3572621035058431,
+        "Monetary_normalized": 0.5375537225743529,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1561",
+        "Customer": "Fany",
+        "No. WA": 6285156393149,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.3572621035058431,
+        "Monetary_normalized": 0.4592575281266095,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1562",
+        "Customer": "Lira",
+        "No. WA": 6281373437116,
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.3572621035058431,
+        "Monetary_normalized": 0.26655374552683014,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1563",
+        "Customer": "Naura Qonita Azka",
+        "No. WA": 6281232771285,
+        "Recency_normalized": 0.4884162585319793,
+        "Frequency_normalized": 0.3572621035058431,
+        "Monetary_normalized": 0.6103625029562765,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1565",
+        "Customer": "Kania Jo",
+        "No. WA": 6281222689680,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.3555926544240401,
+        "Monetary_normalized": 0.6334366949004681,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1566",
+        "Customer": "Celia Ivana",
+        "No. WA": 62817312744,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.3555926544240401,
+        "Monetary_normalized": 0.46436356883886526,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1567",
+        "Customer": "Rita",
+        "No. WA": 6282141322008,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.34891485809682804,
+        "Monetary_normalized": 0.5911404310862589,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1568",
+        "Customer": "Aliya",
+        "No. WA": 628228852299,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.34557595993322204,
+        "Monetary_normalized": 0.48128061628678925,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1570",
+        "Customer": "Yaya",
+        "No. WA": 62895633053470,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.34557595993322204,
+        "Monetary_normalized": 0.5856893147722697,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1571",
+        "Customer": "Arina",
+        "No. WA": 6285730883455,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.34390651085141904,
+        "Monetary_normalized": 0.48811781713133084,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1572",
+        "Customer": "Nada",
+        "No. WA": 6283837969420,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.34390651085141904,
+        "Monetary_normalized": 0.329551789798963,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1573",
+        "Customer": "Eci",
+        "No. WA": 6281331622257,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.34390651085141904,
+        "Monetary_normalized": 0.4693435230542967,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1578",
+        "Customer": "Nabila Laflowerssby",
+        "No. WA": 62881026405452,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.337228714524207,
+        "Monetary_normalized": 0.36957456683093215,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1579",
+        "Customer": "Onish Akhsani",
+        "No. WA": 6281234804979,
+        "Recency_normalized": 0.5404763088546394,
+        "Frequency_normalized": 0.24040066777963273,
+        "Monetary_normalized": 0.7721372241968039,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1580",
+        "Customer": "Desrara Widyadhari",
+        "No. WA": 62895395062343,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.332220367278798,
+        "Monetary_normalized": 0.6175660968475978,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1583",
+        "Customer": "Jessica",
+        "No. WA": 6281236657585,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.332220367278798,
+        "Monetary_normalized": 0.6531537089132335,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1584",
+        "Customer": "Rina",
+        "No. WA": 6282132304065,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.332220367278798,
+        "Monetary_normalized": 0.4374332658237524,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1585",
+        "Customer": "Iin",
+        "No. WA": 628563411105,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.32220367278797996,
+        "Monetary_normalized": 0.41295753277861774,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1589",
+        "Customer": "Fadilah",
+        "No. WA": 6285856444951,
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.32220367278797996,
+        "Monetary_normalized": 0.18478274616254686,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1586",
+        "Customer": "Tasya Gresik",
+        "No. WA": 6287855470336,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.32387312186978295,
+        "Monetary_normalized": 0.46436356883886526,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1591",
+        "Customer": "Naya",
+        "No. WA": 6289505976476,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.3105175292153589,
+        "Monetary_normalized": 0.45134758288146026,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1417",
+        "Customer": "Fina Sulthon",
+        "No. WA": 6281233021000,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.15692821368948248,
+        "Monetary_normalized": 0.765451092615785,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1593",
+        "Customer": "Amanda Wardani",
+        "No. WA": 6282223331696,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.3055091819699499,
+        "Monetary_normalized": 0.5322226999919081,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1597",
+        "Customer": "Qonita",
+        "No. WA": 6281234509310,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.3038397328881469,
+        "Monetary_normalized": 0.5375537225743529,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1602",
+        "Customer": "Aul",
+        "No. WA": 6285731334754,
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.29716193656093487,
+        "Monetary_normalized": 0.04499863669845643,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1607",
+        "Customer": "Inka",
+        "No. WA": 6285745397559,
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.2621035058430718,
+        "Monetary_normalized": 0.47420346806167346,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1604",
+        "Customer": "Kirana",
+        "No. WA": 6282231830133,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.25208681135225375,
+        "Monetary_normalized": 0.555977028314654,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1609",
+        "Customer": "Yoora",
+        "No. WA": 6281231568657,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.21869782971619364,
+        "Monetary_normalized": 0.3959999023636428,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1611",
+        "Customer": "Amel",
+        "No. WA": 6281218662043,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.24040066777963273,
+        "Monetary_normalized": 0.5410310268178585,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1612",
+        "Customer": "Noe Ummu",
+        "No. WA": 6281330900404,
+        "Recency_normalized": 0.7297618455726802,
+        "Frequency_normalized": 0.025041736227045076,
+        "Monetary_normalized": 0.8445640380582863,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1613",
+        "Customer": "Lidia",
+        "No. WA": 628990256008,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.2270450751252087,
+        "Monetary_normalized": 0.3959999023636428,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1614",
+        "Customer": "Nuke",
+        "No. WA": 6289622752257,
+        "Recency_normalized": 0.4283173410313946,
+        "Frequency_normalized": 0.2270450751252087,
+        "Monetary_normalized": 0.5653591303895299,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1615",
+        "Customer": "Andini Twenty Three Studio",
+        "No. WA": 6288216081548,
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.21869782971619364,
+        "Monetary_normalized": 0.12676627514305586,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1616",
+        "Customer": "Eva",
+        "No. WA": 62895414103322,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.21869782971619364,
+        "Monetary_normalized": 0.3483258652599123,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1617",
+        "Customer": "Rama",
+        "No. WA": 6285748026459,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.21702838063439064,
+        "Monetary_normalized": 0.5322226999919081,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1619",
+        "Customer": "Deede She Radio",
+        "No. WA": 6285736341023,
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.19532554257095158,
+        "Monetary_normalized": 0.5093667427845753,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1620",
+        "Customer": "Kak Dika",
+        "No. WA": 6581128126,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.19198664440734559,
+        "Monetary_normalized": 0.3924303079582696,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1621",
+        "Customer": "Berlia 00135",
+        "No. WA": 6289617393200,
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.19198664440734559,
+        "Monetary_normalized": 0.26655374552683014,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1622",
+        "Customer": "Kinan",
+        "No. WA": 6282365921834,
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.19198664440734559,
+        "Monetary_normalized": 0.29764195418314593,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1623",
+        "Customer": "Rara Shertina",
+        "No. WA": 6282141870121,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.18196994991652754,
+        "Monetary_normalized": 0.48811781713133084,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1624",
+        "Customer": "Sisi",
+        "No. WA": 6281330145544,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.18196994991652754,
+        "Monetary_normalized": 0.5052922940810002,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1629",
+        "Customer": "Arsyi",
+        "No. WA": 6285330486945,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.18030050083472454,
+        "Monetary_normalized": 0.40634457699832915,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1632",
+        "Customer": "Iyem",
+        "No. WA": 6281216172879,
+        "Recency_normalized": 0.4283173410313946,
+        "Frequency_normalized": 0.16026711185308848,
+        "Monetary_normalized": 0.5713798426608392,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1608",
+        "Customer": "Retno Ayu",
+        "No. WA": 628977444495,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.14691151919866444,
+        "Monetary_normalized": 0.4315871328612398,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1014",
+        "Customer": "Sulistyowati",
+        "No. WA": 6281330475650,
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.14691151919866444,
+        "Monetary_normalized": 0.3924303079582696,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1633",
+        "Customer": "Elisabeth",
+        "No. WA": 6285157261109,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.14357262103505844,
+        "Monetary_normalized": 0.37748446036485217,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1641",
+        "Customer": "Dyta",
+        "No. WA": 6282140009585,
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.11853088480801335,
+        "Monetary_normalized": 0.48811781713133084,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1642",
+        "Customer": "Nadya",
+        "No. WA": 6287855520088,
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.10851419031719532,
+        "Monetary_normalized": 0.40634457699832915,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1643",
+        "Customer": "Ristanti Katja Mlaku",
+        "No. WA": 62881082382858,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.10517529215358931,
+        "Monetary_normalized": 0.40634457699832915,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1644",
+        "Customer": "Ayik",
+        "No. WA": 6287800111105,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.1018363939899833,
+        "Monetary_normalized": 0.45134758288146026,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1645",
+        "Customer": "Medha",
+        "No. WA": 6281220578300,
+        "Recency_normalized": 0.4884162585319793,
+        "Frequency_normalized": 0.1018363939899833,
+        "Monetary_normalized": 0.6199112304342191,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1015",
+        "Customer": "Astri",
+        "No. WA": 62817396715,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.1001669449081803,
+        "Monetary_normalized": 0.5494706975656584,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1646",
+        "Customer": "Fani",
+        "No. WA": 6285774143273,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.09181969949916527,
+        "Monetary_normalized": 0.4566551980045195,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1024",
+        "Customer": "Adinda Binti Widiatmodjo",
+        "No. WA": 6285203461207,
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.08848080133555926,
+        "Monetary_normalized": 0.519206666016426,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1647",
+        "Customer": "Ika",
+        "No. WA": 6285211243425,
+        "Recency_normalized": 0.4283173410313946,
+        "Frequency_normalized": 0.08848080133555926,
+        "Monetary_normalized": 0.578661461440915,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1648",
+        "Customer": "Lina",
+        "No. WA": 6282139855254,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.08848080133555926,
+        "Monetary_normalized": 0.3959999023636428,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1252",
+        "Customer": "Mutiara",
+        "No. WA": 6281232222388,
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.08347245409015025,
+        "Monetary_normalized": 0.0,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1033",
+        "Customer": "Umi Fatimah",
+        "No. WA": 6282221159273,
+        "Recency_normalized": 0.4283173410313946,
+        "Frequency_normalized": 0.02003338898163606,
+        "Monetary_normalized": 0.6041565010755311,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1651",
+        "Customer": "Diffa",
+        "No. WA": 6282232524401,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.05509181969949917,
+        "Monetary_normalized": 0.30884899189124265,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1653",
+        "Customer": "Dita",
+        "No. WA": 6281297906841,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.05342237061769616,
+        "Monetary_normalized": 0.38509580073376015,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1655",
+        "Customer": "Yurika",
+        "No. WA": 6282144978880,
+        "Recency_normalized": 0.3572354086479836,
+        "Frequency_normalized": 0.03005008347245409,
+        "Monetary_normalized": 0.5032237803575774,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1656",
+        "Customer": "Cea",
+        "No. WA": 6289605965800,
+        "Recency_normalized": 0.4884162585319793,
+        "Frequency_normalized": 0.03005008347245409,
+        "Monetary_normalized": 0.6267873251503435,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1660",
+        "Customer": "Hana",
+        "No. WA": 6283848738234,
+        "Recency_normalized": 0.4283173410313946,
+        "Frequency_normalized": 0.01669449081803005,
+        "Monetary_normalized": 0.5757802846123596,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1661",
+        "Customer": "Baskoro",
+        "No. WA": 6287759584511,
+        "Recency_normalized": 0.27023815442731974,
+        "Frequency_normalized": 0.011686143572621035,
+        "Monetary_normalized": 0.48128061628678925,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1662",
+        "Customer": "Sera",
+        "No. WA": 628176771726,
+        "Recency_normalized": 0.158079186604075,
+        "Frequency_normalized": 0.011686143572621035,
+        "Monetary_normalized": 0.3959999023636428,
+        "Cluster": 1
+    },
+    {
+        "No. Cust": "A1663",
+        "Customer": "Eka Purnama",
+        "No. WA": 6281330302892,
+        "Recency_normalized": 0.0,
+        "Frequency_normalized": 0.00333889816360601,
+        "Monetary_normalized": 0.3924303079582696,
+        "Cluster": 1
+    }
+]

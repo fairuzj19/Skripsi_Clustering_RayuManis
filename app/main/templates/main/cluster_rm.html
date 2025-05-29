@@ -1,0 +1,348 @@
+{% set title = 'Visuzalization Rayu Manis' %}
+{% set page = 'cluster_rm.html' %}
+{% extends 'base.html' %}
+
+{% block plugins_css %}
+  <link rel="stylesheet" href="../node_modules/jqvmap/dist/jqvmap.min.css">
+  <link rel="stylesheet" href="../node_modules/summernote/dist/summernote-bs4.css">
+  <link rel="stylesheet" href="../node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="../node_modules/owl.carousel/dist/assets/owl.theme.default.min.css">
+{% endblock %}
+
+{% block content %}
+<div class="main-content">
+      <div class="col-md">
+          <section class="section">
+              <div class="section-header">
+                  <h1>Visualisasi Cluster Sheet Rayu Manis</h1>
+              </div>
+              <div class="row">
+                <div class="col-lg-8 col-md-12 col-12 col-sm-12">
+                  <div class="card">
+                    <div class="card-header" style="padding-left: 30px;">
+                      <h4>Visualisasi Cluster Rayu Manis</h4>
+                    </div>
+                    <div class="card-body">
+                      <div id="clusterRayu"></div>
+                    </div>
+                    <div class="card-header">
+                      <ul>                      
+                          <li><strong>Cluster 0 (Merah):</strong> Pelanggan dengan frequency dan monetary menengah, tetapi recency lebih tinggi.</li>
+                          <li><strong>Cluster 1 (Biru):</strong> Pelanggan dengan recency rendah, tetapi frequency dan monetary lebih tinggi.</li>
+                      </ul>
+                  </div>                  
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-12 col-sm-12">
+                  <div class="card">
+                    <div class="card-header">
+                      <h4 style="font-size: 16px;">Presentase Cluster Rayu Manis</h4>
+                    </div>
+                    <div class="card-body">
+                        <canvas id="RayuPieChart" height="126"></canvas>
+                      </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header">
+                      <h4>Data Cluster Rayu Manis</h4>
+                    </div>
+                    <div class="card-body">
+                      <table>
+                        <thead>
+                            <tr>
+                                <th>Cluster</th>
+                                <th>Count</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for cluster, count in data3.items() %}
+                            <tr>
+                                <td>{{ cluster }}</td>
+                                <td>{{ count }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <div class="row">
+                  <div class="card" style="margin: 12px; width: 955px;">
+                    <div class="card-header">
+                      <h4>RFM Sheet Order</h4>
+                    </div>
+                    <div class="card-body">
+                        <div id="scatterPlot_rm1"></div>
+                        <div id="scatterPlot_rm2"></div>
+                        <div id="scatterPlot_rm3"></div>
+                    </div>
+                  </div>
+              </div>
+              <div class="row">
+                <div class="card" style="margin: 12px; padding-top: 20px; width: 955px;">
+                  <div class="card-header">
+                      <ul>
+                          <strong>Recency vs. Frequency</strong>
+                          <li><strong>Cluster 0 (Merah):</strong> Pelanggan ini memiliki recency tinggi (sudah lama tidak bertransaksi) dan frequency rendah.</li>
+                          <li><strong>Cluster 1 (Biru):</strong> Pelanggan ini memiliki recency rendah (baru-baru ini melakukan transaksi) dan frequency tinggi.</li>
+                          <strong>Recency vs. Monetary</strong>
+                          <li><strong>Cluster 0 (Merah):</strong> Pelanggan ini memiliki monetary lebih rendah dan recency tinggi.</li>
+                          <li><strong>Cluster 1 (Biru):</strong> Pelanggan ini memiliki monetary tinggi dan recency rendah.</li>
+                          <strong>Frequency vs. Monetary</strong>
+                          <li><strong>Cluster 0 (Merah):</strong> Pelanggan ini memiliki frequency rendah dan monetary rendah.</li>
+                          <li><strong>Cluster 1 (Biru):</strong> Pelanggan ini memiliki frequency tinggi dan monetary tinggi.</li>
+                      </ul>
+                  </div>
+                </div>
+                </div>
+              <div class="row">
+                <div class="card" style="margin: 12px; width: 955px;">
+                    <div class="card-header">
+                        <h4>Insight</h4>
+                      </div>
+                    <div class="card-body">
+                      <table>
+                        <thead>
+                            <tr style="background-color: #f2f2f2;">
+                              <th style="width: 200px !important;">Cluster</th>
+                              <th style="width: 330px !important;">Karakteristik</th>
+                                <th>Keterangan</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td style="text-align: left;"><b>Cluster 0</b><br><b>(At-Risk Customers)</b></td>
+                                <td style="text-align: left;">
+                                  - <b>Recency rendah</b><br>
+                                  - <b>Frequency tinggi</b><br>
+                                  - <b>Monetary tinggi</b>
+                                </td>
+                                <td style="text-align: left;">                  
+                                  <p style="font-size: 14px;">Pelanggan dalam cluster ini jarang bertransaksi 
+                                    dan sudah cukup lama tidak melakukan pembelian. Kelompok ini tergolong 
+                                    kurang aktif dan membutuhkan strategi reaktivasi agar kembali melakukan transaksi.</p> 
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left;"><b>Cluster 1</b><br><b>(Loyal Customers)</b></td>
+                                <td style="text-align: left;">
+                                  - <b>Recency tinggi</b><br>
+                                  - <b>Frequency rendah hingga sedang</b><br>
+                                  - <b>Monetary tinggi</b>                                 
+                                </td>
+                                <td style="text-align: left;">                                    
+                                  <p style="font-size: 14px;">Pelanggan dalam cluster ini sangat aktif dengan frekuensi 
+                                    transaksi dan nilai pembelian yang tinggi. Mereka rutin berbelanja dan menjadi kontributor 
+                                    utama dalam pendapatan, sehingga perlu dipertahankan.</p>
+                                </td>
+                            </tr>               
+                        </tbody>
+                    </table>               
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                                    <div class="row mb-4" style="margin-bottom: 5px !important;">
+                <!-- Tombol Dashboard -->
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <a href="{{ url_for('main.dashboard') }}"
+                    class="d-flex align-items-center justify-content-center gap-2 border rounded-4 px-4 py-2 w-100 text-decoration-none"
+                    style="font-size: 16px; border-color: #d1d5db; background-color: #ffffff; color: #212529; transition: background-color 0.2s ease, color 0.2s ease;"
+                    onmouseover="this.style.backgroundColor='#6777ef'; this.style.color='#ffffff'; this.querySelector('i').style.color='#ffffff';"
+                    onmouseout="this.style.backgroundColor='#ffffff'; this.style.color='#212529'; this.querySelector('i').style.color='#212529';">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
+                      <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4z"/>
+                    </svg>Dashboard
+                  </a>
+                </div>
+
+                <!-- Tombol Insight Cluster -->
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <a href="{{ url_for('main.table2') }}"
+                    class="d-flex align-items-center justify-content-center gap-2 border rounded-4 px-4 py-2 w-100 text-decoration-none"
+                    style="font-size: 16px; border-color: #d1d5db; background-color: #ffffff; color: #212529; transition: background-color 0.2s ease, color 0.2s ease;"
+                    onmouseover="this.style.backgroundColor='#6777ef'; this.style.color='#ffffff'; this.querySelector('i').style.color='#ffffff';"
+                    onmouseout="this.style.backgroundColor='#ffffff'; this.style.color='#212529'; this.querySelector('i').style.color='#212529';">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-table" viewBox="0 0 16 16">
+                      <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 2h-4v3h4zm0 4h-4v3h4zm0 4h-4v3h3a1 1 0 0 0 1-1zm-5 3v-3H6v3zm-5 0v-3H1v2a1 1 0 0 0 1 1zm-4-4h4V8H1zm0-4h4V4H1zm5-3v3h4V4zm4 4H6v3h4z"/>
+                    </svg> Data Cluster Rayu Manis
+                  </a>
+                </div>
+              </div>
+              </div>
+          </section>
+      </div>
+{% endblock content %}
+
+{% block plugins_js %}
+  <script src="../node_modules/simpleweather/jquery.simpleWeather.min.js"></script>
+  <script src="../node_modules/chart.js/dist/Chart.min.js"></script>
+  <script src="../node_modules/jqvmap/dist/jquery.vmap.min.js"></script>
+  <script src="../node_modules/jqvmap/dist/maps/jquery.vmap.world.js"></script>
+  <script src="../node_modules/summernote/dist/summernote-bs4.js"></script>
+  <script src="../node_modules/chocolat/dist/js/jquery.chocolat.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+  <script>
+    const jsonData1 = {{data1|safe}};
+    const clusterTraces1 = [];
+    const colors1 = ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0', '#9966FF'];
+  
+    jsonData1.clusters.forEach((point) => {
+      if (!clusterTraces1[point.cluster]) {
+        clusterTraces1[point.cluster] = {
+          x: [],
+          y: [],
+          z: [],
+          mode: "markers",
+          type: "scatter3d",
+          marker: { size: 5, color: colors1[point.cluster] },
+          name: `Cluster ${point.cluster}`,
+        };
+      }
+      clusterTraces1[point.cluster].x.push(point.x);
+      clusterTraces1[point.cluster].y.push(point.y);
+      clusterTraces1[point.cluster].z.push(point.z);
+    });
+  
+    const layout1 = {
+      title: "3D Cluster Visualization",
+      scene: {
+        xaxis: { title: "Recency" },
+        yaxis: { title: "Frequency" },
+        zaxis: { title: "Monetary" },
+      },
+    };
+  
+    const centroidTrace1 = {
+      x: jsonData1.centroids.map((c) => c.x),
+      y: jsonData1.centroids.map((c) => c.y),
+      z: jsonData1.centroids.map((c) => c.z),
+      mode: "markers",
+      type: "scatter3d",
+      marker: { size: 5, color: "black", symbol: "x" },
+      name: "Centroids",
+    };
+  
+    Plotly.newPlot("clusterRayu", [...clusterTraces1, centroidTrace1], layout1);
+  </script>
+
+  <script>
+    const colors = ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0', '#9966FF'];
+
+    // Menyediakan label yang lebih deskriptif untuk setiap sumbu
+    const axisLabels = {
+        x: "Recency",
+        y: "Frequency",
+        z: "Monetary"
+    };
+
+    function createScatterPlot(divId, xKey, yKey, title) {
+        const clusterTraces1 = [];
+
+        jsonData1.clusters.forEach((point) => {
+            if (!clusterTraces1[point.cluster]) {
+                clusterTraces1[point.cluster] = {
+                    x: [],
+                    y: [],
+                    mode: "markers",
+                    type: "scatter",
+                    marker: { size: 8, color: colors[point.cluster] },
+                    name: `Cluster ${point.cluster}`
+                };
+            }
+            clusterTraces1[point.cluster].x.push(point[xKey]);
+            clusterTraces1[point.cluster].y.push(point[yKey]);
+        });
+
+        // Add centroids
+        const centroidTrace1 = {
+            x: jsonData1.centroids.map((c) => c[xKey]),
+            y: jsonData1.centroids.map((c) => c[yKey]),
+            mode: "markers",
+            type: "scatter",
+            marker: { size: 12, color: "black", symbol: "x" },
+            name: "Centroids"
+        };
+
+        Plotly.newPlot(divId, [...Object.values(clusterTraces1), centroidTrace1], {
+            title: title,
+            xaxis: { title: axisLabels[xKey] },  // Menggunakan label yang lebih deskriptif
+            yaxis: { title: axisLabels[yKey] }
+        });
+    }
+
+    createScatterPlot("scatterPlot_rm1", "x", "y", "Recency vs Frequency");
+    createScatterPlot("scatterPlot_rm2", "x", "z", "Recency vs Monetary");
+    createScatterPlot("scatterPlot_rm3", "y", "z", "Frequency vs Monetary");
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+
+<script>
+  // Ensure the Chart.js DataLabels plugin is registered
+  Chart.register(ChartDataLabels);
+
+  // Insert JSON data from Python
+  const jsonData3 = {{data3|safe}};
+
+  // Extract labels and values
+  const labels = Object.keys(jsonData3);
+  const values = Object.values(jsonData3);
+
+  // Calculate the total sum of values
+  const total = values.reduce((acc, value) => acc + value, 0);
+
+  // Get the chart element
+  const ctx = document.getElementById('RayuPieChart').getContext('2d');
+
+  // Create the Pie Chart
+  const RayuPieChart= new Chart(ctx, {
+    type: 'pie',
+    data: {  
+      labels: labels,
+      datasets: [{
+        data: values,  
+        backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0', '#9966FF'],
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'top', // Move legend to the top
+        },
+        tooltip: {
+          enabled: true, // Show tooltips on hover
+          callbacks: {
+            label: (tooltipItem) => {
+              let dataset = tooltipItem.dataset;
+              let value = dataset.data[tooltipItem.dataIndex];
+              let percentage = ((value / total) * 100).toFixed(2);
+              return `${tooltipItem.label}: ${percentage}%`;
+            }
+          }
+        },
+        datalabels: {
+          color: 'white', // White text for visibility
+          font: {
+            weight: 'bold',
+            size: 12
+          },
+          formatter: (value) => {
+            let percentage = ((value / total) * 100).toFixed(2);
+            return `${percentage}%`; // Show percentage only
+          }
+        }
+      }
+    }
+  });
+</script> 
+{% endblock %}
+
+{% block page_js %}
+  <script src="../assets/js/page/index-0.js"></script>
+{% endblock %}
